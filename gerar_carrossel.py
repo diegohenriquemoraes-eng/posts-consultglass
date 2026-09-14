@@ -21,7 +21,7 @@ Tipos de slide (campo "tipo" em carrosseis.json):
   norma     fundo teal-claro, rótulo A NORMA DIZ / A LEI DIZ — o trecho conferido
   alerta    rótulo vermelho ONDE VIRA PROCESSO
   pericia   fundo navy, rótulo NA PERÍCIA — o caso ou o critério
-  cta       fundo navy, pede salvar/compartilhar + site
+  cta       fundo navy, o produto do ciclo (seguir / Venda Blindada / Perícia / Método Blindar)
 """
 from __future__ import annotations
 
@@ -298,28 +298,55 @@ def slide_pericia(s: dict, n: int, total: int) -> Image.Image:
                        cor_rotulo=TEAL_CLARO, escuro=True)
 
 
+# O que cada CTA oferece — texto da LP mauricio.consultglass.net.br, na voz do Maurício.
+PRODUTOS = {
+    "seguir": {
+        "rotulo": "Siga o perfil",
+        "linha1": "Vidro, esquadria e fachada com critério de perito",
+        "linha2": "@peritomauricioboschetti",
+        "linha3": SITE,
+    },
+    "venda-blindada": {
+        "rotulo": "Venda Blindada · para quem fabrica e instala",
+        "linha1": "Contrato técnico: escopo, medição, prazos, recebimento e responsabilidades",
+        "linha2": "Venda Blindada para esquadrias",
+        "linha3": f"{SITE}/venda-blindada-esquadrias",
+    },
+    "pericia": {
+        "rotulo": "Perícia técnica · quando o dano já existe",
+        "linha1": "Falhas e vícios em esquadrias, vidros, fachadas e guarda-corpos",
+        "linha2": "Perícia extrajudicial e parecer técnico",
+        "linha3": f"{SITE}/pericia-tecnica",
+    },
+    "metodo-blindar": {
+        "rotulo": "Método Blindar · para construtoras",
+        "linha1": "Cinco encontros com a sua equipe, doze ferramentas na sua obra",
+        "linha2": "Método Blindar para Construtoras",
+        "linha3": f"{SITE}/metodo-blindar",
+    },
+}
+
+
 def slide_cta(s: dict, n: int, total: int) -> Image.Image:
+    prod = PRODUTOS[s.get("produto", "seguir")]
     im, d = _slide_base(NAVY)
-    y = _cabecalho(d, n, total, s.get("rotulo", "Guarde este conteúdo"), TEAL_CLARO,
-                   cor_num=TEAL_CLARO) + 8
+    y = _cabecalho(d, n, total, s.get("rotulo", prod["rotulo"]), TEAL_CLARO, cor_num=TEAL_CLARO) + 8
     ft = _f(68, 800)
     fx = _f(42, 400)
+    f1, f2, f3 = _f(30, 600), _f(42, 700), _f(30, 500)
     h = _altura(s["titulo"], ft, UTIL, 1.1, 0) + 40
     if s.get("texto"):
         h += _altura(s["texto"], fx, UTIL, 1.42, 0.7) + 56
-    h += 40 + 52 + 62 + 44
+    h += 40 + _altura(prod["linha1"], f1, UTIL, 1.3, 0) + 20 + _altura(prod["linha2"], f2, UTIL, 1.2, 0) + 16 + 40
     y = _centrar(y, h)
     y = _bloco(d, s["titulo"], MARGEM, y, UTIL, ft, (255, 255, 255), entrelinha=1.1) + 40
     if s.get("texto"):
         y = _bloco(d, s["texto"], MARGEM, y, UTIL, fx, (200, 214, 222), entrelinha=1.42) + 56
     d.rectangle((MARGEM, y, MARGEM + 72, y + 4), fill=TEAL)
     y += 40
-    d.text((MARGEM, y), "Consultoria técnica para construtoras · perícia em esquadrias e vidros",
-           font=_f(28, 600), fill=(150, 170, 180))
-    y += 52
-    d.text((MARGEM, y), "Raio-X da Obra: 12 perguntas, nota de 0 a 100", font=_f(40, 700), fill=(255, 255, 255))
-    y += 62
-    d.text((MARGEM, y), f"{SITE}/raio-x-da-obra", font=_f(30, 500), fill=TEAL_CLARO)
+    y = _bloco(d, prod["linha1"], MARGEM, y, UTIL, f1, (150, 170, 180), entrelinha=1.3) + 20
+    y = _bloco(d, prod["linha2"], MARGEM, y, UTIL, f2, (255, 255, 255), entrelinha=1.2) + 16
+    d.text((MARGEM, y), prod["linha3"], font=f3, fill=TEAL_CLARO)
     _rodape_escuro(d)
     return im
 

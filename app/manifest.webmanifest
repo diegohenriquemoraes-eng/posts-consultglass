@@ -1,0 +1,9 @@
+{
+  "name": "Canteiro Consult Glass",
+  "short_name": "Canteiro CG",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F2F3F0",
+  "theme_color": "#061528",
+  "icons": [{ "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }]
+}

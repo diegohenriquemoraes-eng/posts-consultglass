@@ -37,7 +37,7 @@ class Regras(unittest.TestCase):
     def test_cada_peca_tem_fonte_cta_e_legenda(self):
         for slug, p in BANCO["pecas"].items():
             self.assertTrue(p.get("fonte"), f"{slug}: sem fonte")
-            self.assertIn(p["cta"]["tipo"], ("salvar", "enviar", "pergunta"), slug)
+            self.assertIn(p["cta"]["tipo"], ("seguir", "venda-blindada", "pericia", "metodo-blindar"), slug)
             self.assertGreater(len(p["legenda"]), 600, f"{slug}: legenda curta demais")
             self.assertIn("@peritomauricioboschetti", p["legenda"], f"{slug}: legenda sem o @")
             hashtags = re.findall(r"#\w+", p["legenda"])
@@ -83,9 +83,14 @@ class Regras(unittest.TestCase):
                 self.assertNotIn(t, texto, f"{slug}: afirmação não confirmada '{t}'")
 
     def test_ciclo_de_cta_alterna(self):
+        """seguir / Venda Blindada / Perícia / Método Blindar — nunca o mesmo duas vezes seguidas, e todos aparecem."""
         seq = [BANCO["pecas"][s]["cta"]["tipo"] for s in BANCO["sequencia"]]
         for a, b in zip(seq, seq[1:]):
             self.assertNotEqual(a, b, f"CTA repetido em sequência: {seq}")
+        self.assertEqual(set(seq), {"seguir", "venda-blindada", "pericia", "metodo-blindar"}, seq)
+        for slug, p in BANCO["pecas"].items():
+            self.assertEqual(p["slides"][-1].get("produto"), p["cta"]["tipo"], f"{slug}: slide final não bate com o CTA")
+            self.assertNotIn("Venda na Obra", p["legenda"], slug)
 
     def test_fontes_e_render(self):
         self.assertTrue(os.path.exists(os.path.join(BASE, "fontes", "PlusJakartaSans.ttf")))

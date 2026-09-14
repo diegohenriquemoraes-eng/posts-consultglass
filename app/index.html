@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#061528">
+<meta name="robots" content="noindex">
+<title>Canteiro Consult Glass</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root{
+  --paper:#F2F3F0; --surface:#FFFFFF; --sunk:#E7E9E4;
+  --ink:#141A21; --ink-2:#48525C; --ink-3:#79838D;
+  --line:#D3D7D1; --line-2:#BFC4BD;
+  --carr:#12657A; --carr-soft:#E2F4F6; --teal:#1EA9B8; --navy:#061528;
+  --done:#1B3A5C; --done-soft:#E4ECF5;
+  --b-leg:#F1ECF9; --b-leg-l:#CBBDE6;
+  --r:12px;
+  --shadow:0 1px 2px rgba(20,26,33,.06), 0 4px 14px rgba(20,26,33,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#0E1319; --surface:#161D25; --sunk:#1D262F;
+    --ink:#E8EBE7; --ink-2:#A3ADB6; --ink-3:#78838D;
+    --line:#28323C; --line-2:#3A4650;
+    --carr:#3FD0E0; --carr-soft:#10262C; --done:#7FB0DE; --done-soft:#182634;
+    --b-leg:#221C33; --b-leg-l:#392E52;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 4px 14px rgba(0,0,0,.3);
+  }
+}
+*{box-sizing:border-box}
+body{margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif; font-size:16px; line-height:1.5;
+  -webkit-text-size-adjust:100%; padding-top:env(safe-area-inset-top)}
+.wrap{max-width:720px; margin:0 auto; padding:0 14px 110px}
+header{background:var(--paper); border-bottom:1px solid var(--line); margin:0 -14px; padding:4px 14px 0}
+.brandrow{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:22px; padding-top:14px}
+.brand{font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; font-size:24px; letter-spacing:.04em; text-transform:uppercase; line-height:1}
+.brand span{color:var(--teal)}
+.regra{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.06em; color:var(--ink-3); text-transform:uppercase}
+.days{display:flex; gap:4px; overflow-x:auto; padding:10px 0 0; scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.day{flex:1 0 auto; min-width:64px; text-align:center; cursor:pointer; background:transparent; border:0;
+  border-bottom:3px solid transparent; padding:3px 6px 8px; color:var(--ink-3);
+  font-family:"Barlow Condensed",sans-serif; text-transform:uppercase}
+.day b{display:block; font-size:19px; font-weight:600; letter-spacing:.03em; line-height:1.15}
+.day i{display:block; font-style:normal; font-size:11px; letter-spacing:.09em}
+.day.on{color:var(--ink); border-bottom-color:var(--teal)}
+.day.full b{color:var(--done)}
+.dayhead{padding:18px 0 0}
+.dayhead h1{font-family:"Barlow Condensed",sans-serif; font-weight:700; font-size:34px; line-height:1.02; margin:0 0 4px; text-wrap:balance}
+.card{position:relative; background:var(--surface); border:1px solid var(--line); border-radius:var(--r);
+  box-shadow:var(--shadow); margin:14px 0; overflow:hidden; border-left:4px solid var(--carr)}
+.card.ok{border-left-color:var(--done); opacity:.72}
+.cmain{padding:14px 14px 16px}
+.meta{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px}
+.chip{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.04em; padding:3px 8px; border-radius:6px;
+  background:var(--sunk); color:var(--ink-2)}
+.chip.time{background:var(--carr-soft); color:var(--carr); font-weight:600}
+.ctitle{font-family:"Barlow Condensed",sans-serif; font-weight:700; font-size:26px; line-height:1.1; margin:6px 0 12px}
+.grade{display:grid; grid-template-columns:repeat(4,1fr); gap:6px; margin:0 0 12px}
+.grade img{display:block; width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:6px; border:1px solid var(--line); background:var(--sunk)}
+.btn{display:block; width:100%; border:0; border-radius:10px; padding:15px 14px; margin-top:8px; cursor:pointer;
+  font-family:"Barlow Condensed",sans-serif; font-weight:700; font-size:19px; letter-spacing:.04em; text-transform:uppercase;
+  text-align:center; text-decoration:none; color:var(--ink)}
+.btn.prim{background:var(--navy); color:#fff}
+.btn.leg{background:var(--b-leg); border:1px solid var(--b-leg-l)}
+.btn.sec{background:var(--sunk); border:1px solid var(--line)}
+.btn.ok{background:var(--done-soft); border:1px solid var(--done); color:var(--done)}
+.btn:disabled{opacity:.5}
+.aviso{font-family:"IBM Plex Mono",monospace; font-size:13px; color:var(--ink-3); margin:10px 0 0; min-height:1.2em}
+.leg{white-space:pre-wrap; font-size:15px; color:var(--ink-2); margin-top:10px; background:var(--sunk);
+  border-radius:10px; padding:12px; max-height:220px; overflow:auto; display:none}
+.leg.show{display:block}
+.vazio{padding:40px 0; text-align:center; color:var(--ink-3); font-family:"Barlow Condensed",sans-serif; font-size:22px; text-transform:uppercase; letter-spacing:.05em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brandrow">
+      <div class="brand">Canteiro <span>Consult Glass</span></div>
+      <div class="regra">ter · sex · 7h</div>
+    </div>
+    <div class="days" id="days"></div>
+  </header>
+  <div id="conteudo"><div class="vazio">carregando…</div></div>
+</div>
+
+<script>
+const AGENDA = "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/docs/agenda.json";
+const $ = s => document.querySelector(s);
+let itens = [], cur = 0, arquivos = [];
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const feito = id => localStorage.getItem("cg:"+id) === "1";
+const marcar = (id, v) => v ? localStorage.setItem("cg:"+id, "1") : localStorage.removeItem("cg:"+id);
+function hojeBR(){ return new Date(Date.now() - 3*3600e3).toISOString().slice(0,10); }
+function fmt(d){ const [a,m,dia] = d.split("-"); return `${dia}/${m}`; }
+
+function renderDias(){
+  $("#days").innerHTML = itens.map((it, i) =>
+    `<button class="day ${i===cur?"on":""} ${feito(it.data)?"full":""}" data-i="${i}"><b>${it.dia}</b><i>${fmt(it.data)}</i></button>`).join("");
+  document.querySelectorAll(".day").forEach(b => b.onclick = () => { cur = +b.dataset.i; render(); });
+}
+
+async function render(){
+  renderDias();
+  const it = itens[cur];
+  if (!it){ $("#conteudo").innerHTML = `<div class="vazio">nada preparado ainda</div>`; return; }
+  const ok = feito(it.data);
+  $("#conteudo").innerHTML = `
+    <div class="dayhead"><h1>${it.dia === "ter" ? "Terça" : it.dia === "sex" ? "Sexta" : it.dia} ${fmt(it.data)}</h1></div>
+    <section class="card ${ok?"ok":""}">
+      <div class="cmain">
+        <div class="meta">
+          <span class="chip time">${it.hora}</span>
+          <span class="chip">Carrossel</span>
+          <span class="chip">${it.slides.length} slides</span>
+          <span class="chip">♪ ${esc(it.musica)}</span>
+          <span class="chip">CTA: ${esc(it.cta)}</span>
+        </div>
+        <h3 class="ctitle">${esc(it.titulo)}</h3>
+        <div class="grade">${it.slides.map((u,i) => `<img src="${u}" alt="slide ${i+1}" loading="lazy">`).join("")}</div>
+        <button class="btn prim" id="salvar" disabled>Preparando os slides…</button>
+        <button class="btn leg" id="copiar">Copiar legenda</button>
+        <button class="btn sec" id="ver">Ver legenda</button>
+        <a class="btn sec" href="https://www.instagram.com/" target="_blank" rel="noopener">Abrir o Instagram</a>
+        <button class="btn ${ok?"ok":"sec"}" id="tick">${ok ? "✓ Postado" : "Marcar como postado"}</button>
+        <p class="aviso" id="aviso"></p>
+        <div class="leg" id="leg">${esc(it.legenda)}</div>
+      </div>
+    </section>`;
+  $("#copiar").onclick = async () => {
+    try { await navigator.clipboard.writeText(it.legenda); $("#aviso").textContent = "Legenda copiada. Cole no Instagram."; }
+    catch(e){ $("#leg").classList.add("show"); $("#aviso").textContent = "Copie da caixa abaixo."; }
+  };
+  $("#ver").onclick = () => $("#leg").classList.toggle("show");
+  $("#tick").onclick = () => { marcar(it.data, !feito(it.data)); render(); };
+  $("#salvar").onclick = salvar;
+  await prepararArquivos(it);
+}
+
+/* Os arquivos sao baixados ANTES do clique: no iOS, montar o blob dentro do
+   clique estoura o gesto do usuario e o compartilhamento e' recusado. */
+async function prepararArquivos(it){
+  arquivos = [];
+  try {
+    for (let i = 0; i < it.slides.length; i++){
+      const r = await fetch(it.slides[i], { cache: "no-store" });
+      const blob = await r.blob();
+      arquivos.push(new File([blob], `${it.data}-slide-${String(i+1).padStart(2,"0")}.jpg`, { type: "image/jpeg" }));
+    }
+    const b = $("#salvar");
+    if (!b) return;
+    b.disabled = false;
+    b.textContent = `Salvar os ${arquivos.length} slides em Fotos`;
+  } catch(e){
+    $("#aviso").textContent = "Não consegui baixar os slides: " + e.message;
+  }
+}
+
+async function salvar(){
+  const it = itens[cur];
+  if (navigator.canShare && navigator.canShare({ files: arquivos })){
+    try {
+      await navigator.share({ files: arquivos });
+      $("#aviso").textContent = `Na folha que abriu, toque em Salvar em Fotos — vão os ${arquivos.length} de uma vez, na ordem.`;
+      return;
+    } catch(e){
+      if (e.name === "AbortError") return;
+      $("#aviso").textContent = "O compartilhamento falhou: " + e.message;
+    }
+  }
+  /* sem Web Share (computador ou webview de app): baixa um a um */
+  it.slides.forEach((u, k) => setTimeout(() => {
+    const a = document.createElement("a"); a.href = u; a.download = `${it.data}-slide-${String(k+1).padStart(2,"0")}.jpg`;
+    a.target = "_blank"; document.body.appendChild(a); a.click(); a.remove();
+  }, k * 400));
+  $("#aviso").textContent = "Baixando um a um. No iPhone, abra no Safari para salvar direto em Fotos.";
+}
+
+async function iniciar(){
+  const r = await fetch(AGENDA + "?t=" + Date.now(), { cache: "no-store" });
+  const j = await r.json();
+  itens = j.itens || [];
+  const hoje = hojeBR();
+  cur = itens.findIndex(i => i.data >= hoje);
+  if (cur < 0) cur = Math.max(0, itens.length - 1);
+  render();
+}
+iniciar().catch(e => { $("#conteudo").innerHTML = `<div class="vazio">erro: ${esc(e.message)}</div>`; });
+</script>
+</body>
+</html>

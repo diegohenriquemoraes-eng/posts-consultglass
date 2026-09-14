@@ -6,9 +6,9 @@
     "Publico: construtora, incorporadora, engenheiro, arquiteto e sindico. O post ENSINA um criterio inteiro, para ser SALVO. A autoridade vem do caso e da norma, nao de slogan. Nao vender no miolo — o slide 'Na pericia' traz o caso ou o criterio; a oferta (Raio-X da Obra, site) mora no ultimo slide e no fim da legenda.",
     "Formato: 4:5, 7 a 9 slides, capa com FOTO DO MAURICIO em acao (pasta fotos/, recortes do acervo dele) e gancho de ate 8 palavras; uma ideia por slide; ultimo slide pede a acao. Blocos: 'A norma diz' (teal-claro, trecho conferido, com o campo fonte), 'Onde vira processo' (vermelho) e 'Na pericia' (navy).",
     "RESUMIDO (regra do Diego, 14/09/2026, vale para todo carrossel): capa ate 8 palavras, titulo ate 12, corpo ate 25 palavras, item de lista = rotulo + UMA linha, no maximo 2 paragrafos curtos por slide. O aprofundamento vai na legenda, nunca no slide.",
-    "CICLO DE CTA: salvar -> enviar (para o engenheiro da obra / para a construtora / para o sindico) -> pergunta. Nunca 'comente a palavra X': nao ha robo de Direct neste perfil. A legenda fecha com pergunta + @peritomauricioboschetti.",
+    "CICLO DE CTA (Diego, 14/09/2026): o ultimo slide e o fecho da legenda alternam entre SEGUIR o perfil -> VENDA BLINDADA (contrato tecnico para quem fabrica e instala esquadrias) -> PERICIA tecnica (quando o dano ja existe) -> METODO BLINDAR (consultoria para construtoras), sempre na voz do Mauricio, nunca na do Diego/Venda na Obra. O texto do produto vem da LP mauricio.consultglass.net.br. Nunca 'comente a palavra X'. A legenda fecha com pergunta + @peritomauricioboschetti.",
     "Hashtags: 8 a 10, nicho. Base: #engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional + 2 ou 3 do tema (#guardacorpo #vidrodeseguranca #contramarco #epdm #cdc #normatecnica).",
-    "Cadencia: 2 por semana, SEGUNDA e QUINTA, 7h BRT, automatica (publicar.py + carrossel.yml). Consult Glass nao se mistura com Perffec nem com Venda na Obra: nada de @perffecesquadrias, @vendanaobra, Venda 10x, 'venda' como tema. Aqui o assunto e responsabilidade tecnica, norma, pericia, esquadria, vidro, fachada, guarda-corpo."
+    "Cadencia: 2 por semana, TERCA e SEXTA, 7h BRT. Publicacao MANUAL pelo Diego, pelo app Canteiro Consult Glass (musica fixa da conta): o workflow preparar.yml renderiza as pecas da semana e publica em docs/agenda.json; o app baixa os slides e copia a legenda. Consult Glass nao se mistura com Perffec nem com Venda na Obra."
   ],
   "sequencia": [
     "guarda-corpo-ultimo-item-antes-da-queda",
@@ -25,144 +25,590 @@
     "guarda-corpo-ultimo-item-antes-da-queda": {
       "titulo": "Guarda-corpo é o último item antes da queda",
       "fonte": "Premium Cast jul/2025 e Reel 01/08/2025 ('o último item antes da queda'); legenda 29/01/2026; NBR 14718:2019 (altura 1,10 m; vidro laminado ou laminado temperado) — conferido; CDC art. 18 (solidariedade) — conferido; CP art. 132 e caso da vitrine temperada (Reel 19/09/2025).",
-      "cta": {"tipo": "salvar"},
+      "cta": {
+        "tipo": "pericia"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "palestra-terno.jpg", "etiqueta": "Guarda-corpo", "gancho": "Guarda-corpo não é acabamento. É segurança."},
-        {"tipo": "texto", "titulo": "Um vidro fixo no 2º andar é fachada ou guarda-corpo?", "texto": "Se é a última coisa entre a pessoa e a queda, é guarda-corpo. Não importa o material."},
-        {"tipo": "lista", "titulo": "Por definição, guarda-corpo é:", "itens": [["O último item antes da queda", "Vidro, madeira, aço: a função é a mesma."], ["Um item de segurança", "Não um fechamento, não um detalhe estético."], ["Um produto ensaiado", "Por produto e por empresa que instala."]]},
-        {"tipo": "norma", "titulo": "O que a NBR 14718 exige", "texto": "Altura mínima de 1,10 m do piso acabado ao topo. Em vidro: laminado ou laminado temperado.", "fonte": "ABNT NBR 14718:2019 — Guarda-corpos para edificação"},
-        {"tipo": "alerta", "titulo": "Vidro temperado sozinho no guarda-corpo.", "texto": "Ele rompe, fragmenta e abre o vão. É o tombo de vidro e caco: agrava o que já era ruim."},
-        {"tipo": "pericia", "titulo": "Vitrine temperada 8 mm onde o projeto pedia laminado.", "texto": "Ninguém caiu. O engenheiro perdeu o registro no CREA e responde a um processo de R$ 1,5 milhão. O risco já é o crime (CP, art. 132)."},
-        {"tipo": "texto", "rotulo": "Quem responde", "titulo": "Em sistema de segurança não existe falha isolada.", "texto": "Fabricante, instalador, especificador e construtora respondem solidariamente (CDC, art. 18)."},
-        {"tipo": "cta", "titulo": "Tem guarda-corpo na sua obra? Salve este post antes de contratar."}
+        {
+          "tipo": "capa",
+          "foto": "palestra-terno.jpg",
+          "etiqueta": "Guarda-corpo",
+          "gancho": "Guarda-corpo não é acabamento. É segurança."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Um vidro fixo no 2º andar é fachada ou guarda-corpo?",
+          "texto": "Se é a última coisa entre a pessoa e a queda, é guarda-corpo. Não importa o material."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Por definição, guarda-corpo é:",
+          "itens": [
+            [
+              "O último item antes da queda",
+              "Vidro, madeira, aço: a função é a mesma."
+            ],
+            [
+              "Um item de segurança",
+              "Não um fechamento, não um detalhe estético."
+            ],
+            [
+              "Um produto ensaiado",
+              "Por produto e por empresa que instala."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "titulo": "O que a NBR 14718 exige",
+          "texto": "Altura mínima de 1,10 m do piso acabado ao topo. Em vidro: laminado ou laminado temperado.",
+          "fonte": "ABNT NBR 14718:2019 — Guarda-corpos para edificação"
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Vidro temperado sozinho no guarda-corpo.",
+          "texto": "Ele rompe, fragmenta e abre o vão. É o tombo de vidro e caco: agrava o que já era ruim."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Vitrine temperada 8 mm onde o projeto pedia laminado.",
+          "texto": "Ninguém caiu. O engenheiro perdeu o registro no CREA e responde a um processo de R$ 1,5 milhão. O risco já é o crime (CP, art. 132)."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Quem responde",
+          "titulo": "Em sistema de segurança não existe falha isolada.",
+          "texto": "Fabricante, instalador, especificador e construtora respondem solidariamente (CDC, art. 18)."
+        },
+        {
+          "tipo": "cta",
+          "produto": "pericia",
+          "titulo": "Tem guarda-corpo entregue e a dúvida se é o que foi especificado?"
+        }
       ],
-      "legenda": "Guarda-corpo não é acabamento. É segurança.\n\nA falha mais comum que encontro em perícia não é o vidro errado. É a leitura errada: um pano de vidro fixo no segundo andar de uma loja tratado como \"fachada\", quando ele é a última coisa entre uma criança correndo e a queda. Por definição, isso é guarda-corpo — e guarda-corpo tem norma, ensaio e responsabilidade.\n\nA NBR 14718 pede altura mínima de 1,10 m e, quando é de vidro, laminado ou laminado temperado. O motivo é simples: o temperado sozinho é forte, mas quando rompe, fragmenta e abre o vão. O laminado quebra e continua fechando o vão.\n\nE quando falha, a responsabilidade não se reduz a um erro de instalação. Pelo Código de Defesa do Consumidor (art. 18) ela é solidária e alcança toda a cadeia: fabricante, instalador, quem especificou e a construtora.\n\nUm caso que já contei em palestra: o arquiteto especificou laminado e pediu RT específica do item. O engenheiro recebeu vitrine temperada de 8 mm em perfil U. Ninguém caiu. Ainda assim: registro cassado no CREA e processo de R$ 1,5 milhão. O art. 132 do Código Penal pune expor a vida a perigo — não precisa de fatalidade.\n\nSegurança é requisito técnico. Responsabilidade não se transfere. Conformidade é a única forma de blindagem.\n\nSalve este post para a próxima vez que alguém disser que \"é só uma vedação\". Na sua obra, quem confere se o guarda-corpo entregue é o que foi especificado?\n\n@peritomauricioboschetti\n\n#guardacorpo #vidrodeseguranca #nbr14718 #engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional"
+      "legenda": "Guarda-corpo não é acabamento. É segurança.\n\nA falha mais comum que encontro em perícia não é o vidro errado. É a leitura errada: um pano de vidro fixo no segundo andar de uma loja tratado como \"fachada\", quando ele é a última coisa entre uma criança correndo e a queda. Por definição, isso é guarda-corpo — e guarda-corpo tem norma, ensaio e responsabilidade.\n\nA NBR 14718 pede altura mínima de 1,10 m e, quando é de vidro, laminado ou laminado temperado. O motivo é simples: o temperado sozinho é forte, mas quando rompe, fragmenta e abre o vão. O laminado quebra e continua fechando o vão.\n\nE quando falha, a responsabilidade não se reduz a um erro de instalação. Pelo Código de Defesa do Consumidor (art. 18) ela é solidária e alcança toda a cadeia: fabricante, instalador, quem especificou e a construtora.\n\nUm caso que já contei em palestra: o arquiteto especificou laminado e pediu RT específica do item. O engenheiro recebeu vitrine temperada de 8 mm em perfil U. Ninguém caiu. Ainda assim: registro cassado no CREA e processo de R$ 1,5 milhão. O art. 132 do Código Penal pune expor a vida a perigo — não precisa de fatalidade.\n\nSegurança é requisito técnico. Responsabilidade não se transfere. Conformidade é a única forma de blindagem.\n\nSalve este post para a próxima vez que alguém disser que \"é só uma vedação\". Na sua obra, quem confere se o guarda-corpo entregue é o que foi especificado?\n\nSe há um guarda-corpo na sua obra e a dúvida é se o que foi entregue é o que foi especificado, a perícia técnica responde isso com documento — antes de virar processo. Detalhes em mauricio.consultglass.net.br/pericia-tecnica.\n\n@peritomauricioboschetti\n\n#guardacorpo #vidrodeseguranca #nbr14718 #engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional"
     },
     "temperado-ou-laminado-onde-cada-um-pode": {
       "titulo": "Temperado ou laminado: onde cada um pode",
       "fonte": "Reel 22/01/2026 (UNIFAJ, 581 curtidas) e palestra transcrita; legenda 22/01/2026 ('vidro não é bom ou ruim, é correto ou incorreto'); NBR 7199:2016 + Emenda 2025 (vidro de segurança abaixo de 1,10 m, portas, 60 cm, aramado) — conferido em CBIC/Abravidro.",
-      "cta": {"tipo": "enviar"},
+      "cta": {
+        "tipo": "seguir"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "palestra-microfone.jpg", "etiqueta": "Vidro de segurança", "gancho": "Temperado é forte. Forte não é seguro."},
-        {"tipo": "texto", "titulo": "\"Vou pôr temperado em tudo.\"", "texto": "É o raciocínio que chega à perícia. Temperado é forte. Forte não é a mesma coisa que seguro."},
-        {"tipo": "lista", "titulo": "Os três vidros, em uma linha cada", "itens": [["Temperado", "Passou pelo forno. Rompe em pedaços pequenos — e abre o vão."], ["Laminado", "Duas chapas e um interlayer. Quebra e fica no lugar."], ["Laminado temperado", "Resistência do temperado, retenção do laminado. Para guarda-corpo autoportante."]]},
-        {"tipo": "norma", "titulo": "Onde a NBR 7199 exige vidro de segurança", "texto": "Abaixo de 1,10 m do piso. Em portas, em qualquer altura. Até 60 cm das bordas da porta. Vidro aramado deixou de ser segurança.", "fonte": "ABNT NBR 7199:2016 + Emenda 1:2025"},
-        {"tipo": "alerta", "titulo": "Temperado em guarda-corpo, cobertura ou porta alta.", "texto": "Na ruptura, perda total da função. Película de segurança não substitui o laminado."},
-        {"tipo": "pericia", "titulo": "Laminado bi-apoiado, sem colagem estrutural.", "texto": "O vidro certo instalado da pior forma. Ele dobra. A norma se lê no contexto, não na tabela."},
-        {"tipo": "cta", "titulo": "Envie para quem está especificando vidro agora."}
+        {
+          "tipo": "capa",
+          "foto": "palestra-microfone.jpg",
+          "etiqueta": "Vidro de segurança",
+          "gancho": "Temperado é forte. Forte não é seguro."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "\"Vou pôr temperado em tudo.\"",
+          "texto": "É o raciocínio que chega à perícia. Temperado é forte. Forte não é a mesma coisa que seguro."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Os três vidros, em uma linha cada",
+          "itens": [
+            [
+              "Temperado",
+              "Passou pelo forno. Rompe em pedaços pequenos — e abre o vão."
+            ],
+            [
+              "Laminado",
+              "Duas chapas e um interlayer. Quebra e fica no lugar."
+            ],
+            [
+              "Laminado temperado",
+              "Resistência do temperado, retenção do laminado. Para guarda-corpo autoportante."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "titulo": "Onde a NBR 7199 exige vidro de segurança",
+          "texto": "Abaixo de 1,10 m do piso. Em portas, em qualquer altura. Até 60 cm das bordas da porta. Vidro aramado deixou de ser segurança.",
+          "fonte": "ABNT NBR 7199:2016 + Emenda 1:2025"
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Temperado em guarda-corpo, cobertura ou porta alta.",
+          "texto": "Na ruptura, perda total da função. Película de segurança não substitui o laminado."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Laminado bi-apoiado, sem colagem estrutural.",
+          "texto": "O vidro certo instalado da pior forma. Ele dobra. A norma se lê no contexto, não na tabela."
+        },
+        {
+          "tipo": "cta",
+          "produto": "seguir",
+          "titulo": "Vidro, esquadria e fachada, com critério de perito."
+        }
       ],
-      "legenda": "Vidro não é bom ou ruim. Vidro é correto ou incorreto para cada uso.\n\nO vidro temperado é, sim, mais resistente que o comum: passou por processo térmico, ganhou resistência mecânica e, quando rompe, fragmenta em pedaços pequenos e menos cortantes. O problema começa quando ele é especificado fora do contexto. Guarda-corpo, cobertura, grandes panos verticais e portas de grande altura não podem usar temperado monolítico: na ruptura, o vão abre na hora.\n\nVidro de segurança para essas aplicações é o laminado: duas ou mais chapas unidas por interlayer (PVB, EVA ou estrutural). Mesmo quebrado, permanece íntegro. Em aplicações críticas, o laminado temperado combina a resistência do temperado com a retenção do laminado — e ainda assim exige projeto, cálculo e especificação.\n\nA NBR 7199 define onde o vidro de segurança é obrigatório: áreas sujeitas a impacto humano abaixo de 1,10 m, portas em qualquer altura e as áreas até 60 cm das bordas da porta (emenda de 2025), além de ambientes com crianças, idosos, saúde, esporte e grande público. O vidro aramado deixou de ser classificado como segurança.\n\nE o erro mais sutil: usar o laminado certo e apoiá-lo errado. Laminado bi-apoiado, sem colagem estrutural, dobra. É ler a tabela sem ler a norma.\n\nGuarda-corpo jamais é decisão estética. É decisão técnica. E decisão técnica salva vidas.\n\nEnvie este post para quem está especificando vidro na sua obra agora. Qual vidro está no memorial do seu guarda-corpo?\n\n@peritomauricioboschetti\n\n#vidrodeseguranca #nbr7199 #vidrolaminado #vidrotemperado #guardacorpo #engenhariacivil #arquitetura #esquadrias #construcaocivil #periciajudicial"
+      "legenda": "Vidro não é bom ou ruim. Vidro é correto ou incorreto para cada uso.\n\nO vidro temperado é, sim, mais resistente que o comum: passou por processo térmico, ganhou resistência mecânica e, quando rompe, fragmenta em pedaços pequenos e menos cortantes. O problema começa quando ele é especificado fora do contexto. Guarda-corpo, cobertura, grandes panos verticais e portas de grande altura não podem usar temperado monolítico: na ruptura, o vão abre na hora.\n\nVidro de segurança para essas aplicações é o laminado: duas ou mais chapas unidas por interlayer (PVB, EVA ou estrutural). Mesmo quebrado, permanece íntegro. Em aplicações críticas, o laminado temperado combina a resistência do temperado com a retenção do laminado — e ainda assim exige projeto, cálculo e especificação.\n\nA NBR 7199 define onde o vidro de segurança é obrigatório: áreas sujeitas a impacto humano abaixo de 1,10 m, portas em qualquer altura e as áreas até 60 cm das bordas da porta (emenda de 2025), além de ambientes com crianças, idosos, saúde, esporte e grande público. O vidro aramado deixou de ser classificado como segurança.\n\nE o erro mais sutil: usar o laminado certo e apoiá-lo errado. Laminado bi-apoiado, sem colagem estrutural, dobra. É ler a tabela sem ler a norma.\n\nGuarda-corpo jamais é decisão estética. É decisão técnica. E decisão técnica salva vidas.\n\nEnvie este post para quem está especificando vidro na sua obra agora. Qual vidro está no memorial do seu guarda-corpo?\n\nAqui eu trato vidro, esquadria e fachada com o critério de quem vê o fim da história na perícia. Siga @peritomauricioboschetti.\n\n#vidrodeseguranca #nbr7199 #vidrolaminado #vidrotemperado #guardacorpo #engenhariacivil #arquitetura #esquadrias #construcaocivil #periciajudicial"
     },
     "a-lei-diz-se-pode-a-norma-diz-como": {
       "titulo": "A lei diz se pode. A norma diz como.",
       "fonte": "Podcast Vidro na Obra #69 (jun/2025) e Reels 05/06/2025, 23/07/2025 e 22/12/2025; legenda 22/12/2025; CDC art. 39, VIII — texto conferido no Planalto em 14/09/2026.",
-      "cta": {"tipo": "pergunta"},
+      "cta": {
+        "tipo": "venda-blindada"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "podcast-pb.jpg", "etiqueta": "Norma e lei", "gancho": "\"Norma não é lei.\" Tem certeza?"},
-        {"tipo": "texto", "titulo": "O mercado repete: \"norma não é lei, mas tem força de lei\".", "texto": "Para produto técnico — esquadria, vidro, fachada, guarda-corpo — essa frase já não se sustenta."},
-        {"tipo": "norma", "rotulo": "A lei diz", "titulo": "CDC, art. 39, inciso VIII", "texto": "É vedado colocar no mercado qualquer produto ou serviço em desacordo com as normas dos órgãos oficiais ou, na falta delas, da ABNT.", "fonte": "Lei 8.078/1990, art. 39, VIII"},
-        {"tipo": "lista", "titulo": "O raciocínio em três passos", "itens": [["O CDC é lei", "E o CDC proíbe produto fora da norma."], ["Logo", "Não seguir a norma é infringir a lei."], ["Portanto", "A lei diz o que pode. A norma diz como fazer."]]},
-        {"tipo": "texto", "rotulo": "O detalhe", "titulo": "Norma é o mínimo, não o máximo.", "texto": "\"Requisitos mínimos\" está escrito nela. Chegar na norma é o ponto de partida, não o diferencial."},
-        {"tipo": "alerta", "titulo": "Catálogo do sistemista e boas práticas contam do mesmo jeito.", "texto": "Seguiu a norma e saiu do catálogo? Tomou decisão sem ensaio. Na perícia, os três têm o mesmo peso."},
-        {"tipo": "pericia", "titulo": "O laudo começa pela norma.", "texto": "Quando algo falha, a análise volta para a norma aplicada — ou ignorada. É o primeiro documento que o perito abre."},
-        {"tipo": "cta", "titulo": "Você concorda que, para esquadria, norma é lei?"}
+        {
+          "tipo": "capa",
+          "foto": "podcast-pb.jpg",
+          "etiqueta": "Norma e lei",
+          "gancho": "\"Norma não é lei.\" Tem certeza?"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O mercado repete: \"norma não é lei, mas tem força de lei\".",
+          "texto": "Para produto técnico — esquadria, vidro, fachada, guarda-corpo — essa frase já não se sustenta."
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "CDC, art. 39, inciso VIII",
+          "texto": "É vedado colocar no mercado qualquer produto ou serviço em desacordo com as normas dos órgãos oficiais ou, na falta delas, da ABNT.",
+          "fonte": "Lei 8.078/1990, art. 39, VIII"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O raciocínio em três passos",
+          "itens": [
+            [
+              "O CDC é lei",
+              "E o CDC proíbe produto fora da norma."
+            ],
+            [
+              "Logo",
+              "Não seguir a norma é infringir a lei."
+            ],
+            [
+              "Portanto",
+              "A lei diz o que pode. A norma diz como fazer."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "O detalhe",
+          "titulo": "Norma é o mínimo, não o máximo.",
+          "texto": "\"Requisitos mínimos\" está escrito nela. Chegar na norma é o ponto de partida, não o diferencial."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Catálogo do sistemista e boas práticas contam do mesmo jeito.",
+          "texto": "Seguiu a norma e saiu do catálogo? Tomou decisão sem ensaio. Na perícia, os três têm o mesmo peso."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "O laudo começa pela norma.",
+          "texto": "Quando algo falha, a análise volta para a norma aplicada — ou ignorada. É o primeiro documento que o perito abre."
+        },
+        {
+          "tipo": "cta",
+          "produto": "venda-blindada",
+          "titulo": "Você fabrica e instala? O seu contrato diz o \"como\"?"
+        }
       ],
-      "legenda": "A lei diz o que você pode ou não fazer. A norma diz como você deve fazer. A norma é o detalhamento da lei.\n\nDurante anos o setor repetiu que \"norma não é lei, mas tem força de lei\". Eu também dizia. Mudei quando li o Código de Defesa do Consumidor com atenção: o art. 39, inciso VIII, veda colocar no mercado qualquer produto ou serviço em desacordo com as normas dos órgãos oficiais ou, na falta delas, da ABNT. O CDC é lei. Se a lei proíbe produto fora da norma, não seguir a norma é infringir a lei. Para produto técnico — esquadria, vidro, fachada, guarda-corpo — não há como separar uma coisa da outra.\n\nDois desdobramentos que o mercado ainda não absorveu:\n\n1. Norma é o mínimo. Está escrito nela: \"requisitos mínimos\". Chegar na norma não é diferencial; é o ponto de partida. Quem se vangloria de seguir a norma está se vangloriando de fazer o mínimo.\n\n2. Norma, catálogo do sistemista e boas práticas têm o mesmo peso na perícia. Quem seguiu a norma mas saiu do método testado pelo fabricante tomou uma decisão sem laudo. E o que ainda não está escrito em norma, mas todo o mercado sabe que dá problema, também é levado em conta por peritos e juízes.\n\nNa prática, nenhuma decisão jurídica se sustenta sem base normativa. Quando algo falha, a análise sempre volta para a norma técnica aplicada — ou ignorada. É o primeiro documento que abro num laudo.\n\nE você: para esquadria e vidro, norma é lei ou não é? Me conta nos comentários.\n\n@peritomauricioboschetti\n\n#normatecnica #cdc #abnt #engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional"
+      "legenda": "A lei diz o que você pode ou não fazer. A norma diz como você deve fazer. A norma é o detalhamento da lei.\n\nDurante anos o setor repetiu que \"norma não é lei, mas tem força de lei\". Eu também dizia. Mudei quando li o Código de Defesa do Consumidor com atenção: o art. 39, inciso VIII, veda colocar no mercado qualquer produto ou serviço em desacordo com as normas dos órgãos oficiais ou, na falta delas, da ABNT. O CDC é lei. Se a lei proíbe produto fora da norma, não seguir a norma é infringir a lei. Para produto técnico — esquadria, vidro, fachada, guarda-corpo — não há como separar uma coisa da outra.\n\nDois desdobramentos que o mercado ainda não absorveu:\n\n1. Norma é o mínimo. Está escrito nela: \"requisitos mínimos\". Chegar na norma não é diferencial; é o ponto de partida. Quem se vangloria de seguir a norma está se vangloriando de fazer o mínimo.\n\n2. Norma, catálogo do sistemista e boas práticas têm o mesmo peso na perícia. Quem seguiu a norma mas saiu do método testado pelo fabricante tomou uma decisão sem laudo. E o que ainda não está escrito em norma, mas todo o mercado sabe que dá problema, também é levado em conta por peritos e juízes.\n\nNa prática, nenhuma decisão jurídica se sustenta sem base normativa. Quando algo falha, a análise sempre volta para a norma técnica aplicada — ou ignorada. É o primeiro documento que abro num laudo.\n\nE você: para esquadria e vidro, norma é lei ou não é? Me conta nos comentários.\n\nSe você fabrica e instala esquadrias, a norma diz como fazer — e o contrato precisa dizer de quem é cada responsabilidade. É isso que o Venda Blindada resolve: contrato técnico com escopo, medição, prazos, recebimento e responsabilidades definidos. mauricio.consultglass.net.br/venda-blindada-esquadrias.\n\n@peritomauricioboschetti\n\n#normatecnica #cdc #abnt #engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional"
     },
     "o-que-nao-esta-documentado-nao-existe": {
       "titulo": "O que não está documentado não existe",
       "fonte": "Palestra Congresso de Guarda-Corpos (Reel 02/07/2025: 'o que não está documentado não existe legalmente'); Aluparts EP20 abr/2026 (diário de obra, e-mail com confirmação, WhatsApp); Reel 18/07/2025 (blindagem judicial = documentação + fotos + base legal); legenda 17/12/2025 (memorial).",
-      "cta": {"tipo": "salvar"},
+      "cta": {
+        "tipo": "metodo-blindar"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "palco-documentado.jpg", "etiqueta": "Blindagem", "gancho": "O que não está documentado não existe."},
-        {"tipo": "texto", "titulo": "Você avisou. Verbalmente.", "texto": "Perante a lei, só tem valor o que foi registrado. Comunicação verbal não vai ao tribunal."},
-        {"tipo": "lista", "titulo": "O que sustenta a sua posição numa perícia", "itens": [["Contrato", "Escopo, prazos, recebimento e responsabilidades definidos."], ["Memorial descritivo", "Omissão de dado essencial, no CDC, vira risco."], ["Diário de obra e e-mail", "Com confirmação de recebimento."], ["Registro fotográfico", "Antes, durante e na entrega."]]},
-        {"tipo": "texto", "rotulo": "Na entrega", "titulo": "Manual do usuário e termo de garantia, assinados.", "texto": "Sem manual, não há manutenção preventiva prevista. Sem termo, vale o prazo da lei."},
-        {"tipo": "alerta", "titulo": "Print de WhatsApp.", "texto": "É editável. O que se audita é o registro rastreável — e-mail confirmado, diário assinado."},
-        {"tipo": "pericia", "titulo": "Quem prova é a parte acionada.", "texto": "O cliente é leigo; não tem de provar nada. A empresa tem de provar que entregou, orientou e registrou."},
-        {"tipo": "texto", "rotulo": "Ética na prática", "titulo": "Um volume de decisões registradas, observáveis e auditáveis.", "texto": "Se não é auditável, o que você escondeu?"},
-        {"tipo": "cta", "titulo": "Salve e confira o que falta na sua próxima entrega."}
+        {
+          "tipo": "capa",
+          "foto": "palco-documentado.jpg",
+          "etiqueta": "Blindagem",
+          "gancho": "O que não está documentado não existe."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Você avisou. Verbalmente.",
+          "texto": "Perante a lei, só tem valor o que foi registrado. Comunicação verbal não vai ao tribunal."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que sustenta a sua posição numa perícia",
+          "itens": [
+            [
+              "Contrato",
+              "Escopo, prazos, recebimento e responsabilidades definidos."
+            ],
+            [
+              "Memorial descritivo",
+              "Omissão de dado essencial, no CDC, vira risco."
+            ],
+            [
+              "Diário de obra e e-mail",
+              "Com confirmação de recebimento."
+            ],
+            [
+              "Registro fotográfico",
+              "Antes, durante e na entrega."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Na entrega",
+          "titulo": "Manual do usuário e termo de garantia, assinados.",
+          "texto": "Sem manual, não há manutenção preventiva prevista. Sem termo, vale o prazo da lei."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Print de WhatsApp.",
+          "texto": "É editável. O que se audita é o registro rastreável — e-mail confirmado, diário assinado."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Quem prova é a parte acionada.",
+          "texto": "O cliente é leigo; não tem de provar nada. A empresa tem de provar que entregou, orientou e registrou."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Ética na prática",
+          "titulo": "Um volume de decisões registradas, observáveis e auditáveis.",
+          "texto": "Se não é auditável, o que você escondeu?"
+        },
+        {
+          "tipo": "cta",
+          "produto": "metodo-blindar",
+          "titulo": "Construtora: instale o critério antes da próxima compra."
+        }
       ],
-      "legenda": "O que não está documentado não existe legalmente.\n\nA frase que abre minhas palestras sobre blindagem judicial incomoda porque é simples. Você avisou o cliente? Verbalmente. Orientou o engenheiro da obra sobre o vão? Numa conversa. Entregou o manual? Deixou em cima da bancada. Numa perícia, nada disso existe.\n\nBlindagem judicial é uma base de documentação, uma base de registro fotográfico e uma base legal em que fica clara a responsabilidade de cada um. Na prática:\n\n– contrato com escopo, medição, prazos, recebimento e responsabilidades;\n– memorial descritivo (quando a informação não está clara, o Código de Defesa do Consumidor entende como omissão de dado essencial);\n– diário de obra e e-mail com confirmação de recebimento para toda comunicação técnica relevante;\n– registro fotográfico antes, durante e na entrega;\n– manual de uso, operação e manutenção e termo de garantia, com assinatura de recebimento.\n\nPor que a assinatura importa: quem prova é a parte acionada. O cliente é leigo e não tem de provar nada. A empresa tem de provar que entregou, que orientou e que registrou. E print de conversa é editável; o que se audita é o registro rastreável.\n\nÉtica é o que você faz quando ninguém está vendo. Ética na prática é um volume de decisões registradas, observáveis e auditáveis. Se não é auditável, o que você escondeu?\n\nSalve este post e confira, na próxima entrega, o que está faltando. Qual desses cinco documentos a sua obra não tem hoje?\n\n@peritomauricioboschetti\n\n#blindagemprofissional #responsabilidadetecnica #memorialdescritivo #diariodeobra #engenhariacivil #esquadrias #construcaocivil #arquitetura #periciajudicial #gestaodeobras"
+      "legenda": "O que não está documentado não existe legalmente.\n\nA frase que abre minhas palestras sobre blindagem judicial incomoda porque é simples. Você avisou o cliente? Verbalmente. Orientou o engenheiro da obra sobre o vão? Numa conversa. Entregou o manual? Deixou em cima da bancada. Numa perícia, nada disso existe.\n\nBlindagem judicial é uma base de documentação, uma base de registro fotográfico e uma base legal em que fica clara a responsabilidade de cada um. Na prática:\n\n– contrato com escopo, medição, prazos, recebimento e responsabilidades;\n– memorial descritivo (quando a informação não está clara, o Código de Defesa do Consumidor entende como omissão de dado essencial);\n– diário de obra e e-mail com confirmação de recebimento para toda comunicação técnica relevante;\n– registro fotográfico antes, durante e na entrega;\n– manual de uso, operação e manutenção e termo de garantia, com assinatura de recebimento.\n\nPor que a assinatura importa: quem prova é a parte acionada. O cliente é leigo e não tem de provar nada. A empresa tem de provar que entregou, que orientou e que registrou. E print de conversa é editável; o que se audita é o registro rastreável.\n\nÉtica é o que você faz quando ninguém está vendo. Ética na prática é um volume de decisões registradas, observáveis e auditáveis. Se não é auditável, o que você escondeu?\n\nSalve este post e confira, na próxima entrega, o que está faltando. Qual desses cinco documentos a sua obra não tem hoje?\n\nPara construtora e incorporadora, o Método Blindar instala esse critério do projeto ao recebimento, em cinco encontros com a sua equipe e doze ferramentas aplicadas na sua obra. mauricio.consultglass.net.br/metodo-blindar.\n\n@peritomauricioboschetti\n\n#blindagemprofissional #responsabilidadetecnica #memorialdescritivo #diariodeobra #engenhariacivil #esquadrias #construcaocivil #arquitetura #periciajudicial #gestaodeobras"
     },
     "cdc-veio-para-o-responsavel-tecnico": {
       "titulo": "O CDC veio para o responsável técnico",
       "fonte": "Podcast Vidro na Obra #69 e Reel 11/07/2025 ('o CDC veio para fazer o responsável técnico ser responsável'); Aluparts EP20 (objetiva × subjetiva, o vão oco); Reel 26/09/2025; CDC arts. 3º, 12, 14 §4º e 18 — texto conferido no Planalto.",
-      "cta": {"tipo": "enviar"},
+      "cta": {
+        "tipo": "seguir"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "congresso-mentor.jpg", "etiqueta": "Responsabilidade", "gancho": "O CDC não protege o leigo. Cobra você."},
-        {"tipo": "texto", "titulo": "Muita gente lê o CDC como a lei do cliente fraco.", "texto": "Ele veio para fazer o responsável técnico ser responsável. O cliente não tem que saber. Você tem."},
-        {"tipo": "norma", "rotulo": "A lei diz", "titulo": "Quem é fornecedor (art. 3º)", "texto": "Toda pessoa física ou jurídica que produz, monta, cria, constrói ou presta serviço. O engenheiro é, legalmente, um fornecedor.", "fonte": "Lei 8.078/1990, art. 3º"},
-        {"tipo": "lista", "titulo": "Dois tipos de responsabilidade", "itens": [["Objetiva", "Fabricante, instalador, mão de obra: respondem sem precisar provar culpa (arts. 12 e 14)."], ["Subjetiva", "Engenheiro e arquiteto: precisa provar imperícia, imprudência ou negligência (art. 14, §4º)."], ["Solidária", "O cliente pode processar todos ao mesmo tempo (art. 18)."]]},
-        {"tipo": "pericia", "titulo": "A esquadria recebeu o vão oco e parafusou.", "texto": "Responsabilidade objetiva na hora. Ela tinha o dever de recusar o vão."},
-        {"tipo": "alerta", "titulo": "\"Eu não sabia.\"", "texto": "Não é defesa. É imperícia: você era obrigado a saber. Só o registro escrito prova que você orientou."},
-        {"tipo": "texto", "rotulo": "A frase que resume", "titulo": "Quem decide tecnicamente, responde tecnicamente.", "texto": "E quem documenta corretamente, se protege."},
-        {"tipo": "cta", "titulo": "Envie para o engenheiro que assina a sua obra."}
+        {
+          "tipo": "capa",
+          "foto": "congresso-mentor.jpg",
+          "etiqueta": "Responsabilidade",
+          "gancho": "O CDC não protege o leigo. Cobra você."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Muita gente lê o CDC como a lei do cliente fraco.",
+          "texto": "Ele veio para fazer o responsável técnico ser responsável. O cliente não tem que saber. Você tem."
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "Quem é fornecedor (art. 3º)",
+          "texto": "Toda pessoa física ou jurídica que produz, monta, cria, constrói ou presta serviço. O engenheiro é, legalmente, um fornecedor.",
+          "fonte": "Lei 8.078/1990, art. 3º"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Dois tipos de responsabilidade",
+          "itens": [
+            [
+              "Objetiva",
+              "Fabricante, instalador, mão de obra: respondem sem precisar provar culpa (arts. 12 e 14)."
+            ],
+            [
+              "Subjetiva",
+              "Engenheiro e arquiteto: precisa provar imperícia, imprudência ou negligência (art. 14, §4º)."
+            ],
+            [
+              "Solidária",
+              "O cliente pode processar todos ao mesmo tempo (art. 18)."
+            ]
+          ]
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "A esquadria recebeu o vão oco e parafusou.",
+          "texto": "Responsabilidade objetiva na hora. Ela tinha o dever de recusar o vão."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "\"Eu não sabia.\"",
+          "texto": "Não é defesa. É imperícia: você era obrigado a saber. Só o registro escrito prova que você orientou."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "A frase que resume",
+          "titulo": "Quem decide tecnicamente, responde tecnicamente.",
+          "texto": "E quem documenta corretamente, se protege."
+        },
+        {
+          "tipo": "cta",
+          "produto": "seguir",
+          "titulo": "Responsabilidade técnica, sem rodeio."
+        }
       ],
-      "legenda": "Muitas pessoas leem o Código de Defesa do Consumidor como a lei que trata o cliente como leigo. Na verdade, ele veio para fazer o responsável técnico ser responsável.\n\nO art. 3º define fornecedor: toda pessoa física ou jurídica que produz, monta, cria, constrói ou presta serviço. Ou seja: o engenheiro, o arquiteto, o instalador autônomo e a indústria são todos fornecedores — com a mesma obrigação técnica, tenha a empresa três ou cem funcionários.\n\nDaí saem dois tipos de responsabilidade que todo profissional da obra precisa distinguir:\n\nObjetiva — fabricante, construtor e prestador de serviço respondem independentemente de culpa (arts. 12 e 14). A empresa de esquadria que recebeu o vão oco, parafusou e seguiu a obra responde na hora: ela tinha o dever de recusar o vão.\n\nSubjetiva — o profissional liberal responde mediante verificação de culpa (art. 14, §4º): imperícia, imprudência ou negligência. Precisa ser provada. É por isso que o registro escrito importa: ele prova que o engenheiro foi avisado, ou que orientou.\n\nE a solidariedade (art. 18): o cliente pode acionar todos os que lucraram na obra, ao mesmo tempo. De quem foi o erro se discute depois, entre as partes.\n\n\"Eu não sabia\" não é defesa. É imperícia — você era obrigado a saber. Quem decide tecnicamente, responde tecnicamente. E quem documenta corretamente, se protege.\n\nEnvie este post para o engenheiro que assina a ART da sua obra. Ele sabe pelo que está respondendo?\n\n@peritomauricioboschetti\n\n#cdc #responsabilidadetecnica #responsabilidadesolidaria #engenhariacivil #arquitetura #esquadrias #construcaocivil #periciajudicial #blindagemprofissional #art"
+      "legenda": "Muitas pessoas leem o Código de Defesa do Consumidor como a lei que trata o cliente como leigo. Na verdade, ele veio para fazer o responsável técnico ser responsável.\n\nO art. 3º define fornecedor: toda pessoa física ou jurídica que produz, monta, cria, constrói ou presta serviço. Ou seja: o engenheiro, o arquiteto, o instalador autônomo e a indústria são todos fornecedores — com a mesma obrigação técnica, tenha a empresa três ou cem funcionários.\n\nDaí saem dois tipos de responsabilidade que todo profissional da obra precisa distinguir:\n\nObjetiva — fabricante, construtor e prestador de serviço respondem independentemente de culpa (arts. 12 e 14). A empresa de esquadria que recebeu o vão oco, parafusou e seguiu a obra responde na hora: ela tinha o dever de recusar o vão.\n\nSubjetiva — o profissional liberal responde mediante verificação de culpa (art. 14, §4º): imperícia, imprudência ou negligência. Precisa ser provada. É por isso que o registro escrito importa: ele prova que o engenheiro foi avisado, ou que orientou.\n\nE a solidariedade (art. 18): o cliente pode acionar todos os que lucraram na obra, ao mesmo tempo. De quem foi o erro se discute depois, entre as partes.\n\n\"Eu não sabia\" não é defesa. É imperícia — você era obrigado a saber. Quem decide tecnicamente, responde tecnicamente. E quem documenta corretamente, se protege.\n\nEnvie este post para o engenheiro que assina a ART da sua obra. Ele sabe pelo que está respondendo?\n\nResponsabilidade técnica é o assunto deste perfil, sem rodeio. Siga @peritomauricioboschetti.\n\n#cdc #responsabilidadetecnica #responsabilidadesolidaria #engenhariacivil #arquitetura #esquadrias #construcaocivil #periciajudicial #blindagemprofissional #art"
     },
     "vicio-oculto-a-garantia-comeca-no-problema": {
       "titulo": "Vício oculto: a garantia começa no problema",
       "fonte": "Aluparts EP20 e Reels 03/12/2025 e 11/12/2025 (vício aparente × oculto; 'a garantia começa no problema'); legenda 20/10/2025 (art. 618); CDC art. 26 e §3º, CC art. 618 — texto conferido no Planalto; caso do vidro de controle solar (Aluparts).",
-      "cta": {"tipo": "pergunta"},
+      "cta": {
+        "tipo": "venda-blindada"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "podcast-branco.jpg", "etiqueta": "Garantia", "gancho": "\"Passou cinco anos, acabou.\" Não acabou."},
-        {"tipo": "lista", "titulo": "Dois vícios, dois relógios", "itens": [["Aparente", "O leigo percebe na entrega: porta emperrando, risco, acabamento."], ["Oculto", "Só aparece com o uso ou no colapso. Só um experiente identifica."]]},
-        {"tipo": "norma", "rotulo": "A lei diz", "titulo": "Vício aparente: 90 dias para reclamar", "texto": "Contados da entrega, em produto durável. No vício oculto, o prazo só começa quando o defeito fica evidenciado.", "fonte": "CDC, art. 26, II e §3º"},
-        {"tipo": "norma", "rotulo": "A lei diz", "titulo": "Solidez e segurança: cinco anos", "texto": "O empreiteiro responde pelo prazo irredutível de cinco anos. E o dono da obra tem 180 dias, a partir do vício, para agir.", "fonte": "Código Civil, art. 618"},
-        {"tipo": "pericia", "titulo": "Projeto pedia vidro de controle solar. Instalaram comum.", "texto": "A cliente assinou a entrega — leiga, não identifica vidro. Meses depois os móveis queimaram. Vício oculto: troca de todos os vidros e dos móveis."},
-        {"tipo": "alerta", "titulo": "Garantia sem manutenção registrada.", "texto": "A garantia só vale se o usuário cumpriu o manual. Ninguém deixa o carro 10 anos com o mesmo pneu — mas deixa a esquadria 10 anos sem trocar roldana."},
-        {"tipo": "texto", "rotulo": "Para quem compra", "titulo": "Vistoria técnica no recebimento das chaves.", "texto": "O que é aparente e não foi reclamado no recebimento, perde. Leve quem enxerga."},
-        {"tipo": "cta", "titulo": "Sua obra entrega manual de manutenção? Conte aqui."}
+        {
+          "tipo": "capa",
+          "foto": "podcast-branco.jpg",
+          "etiqueta": "Garantia",
+          "gancho": "\"Passou cinco anos, acabou.\" Não acabou."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Dois vícios, dois relógios",
+          "itens": [
+            [
+              "Aparente",
+              "O leigo percebe na entrega: porta emperrando, risco, acabamento."
+            ],
+            [
+              "Oculto",
+              "Só aparece com o uso ou no colapso. Só um experiente identifica."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "Vício aparente: 90 dias para reclamar",
+          "texto": "Contados da entrega, em produto durável. No vício oculto, o prazo só começa quando o defeito fica evidenciado.",
+          "fonte": "CDC, art. 26, II e §3º"
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "Solidez e segurança: cinco anos",
+          "texto": "O empreiteiro responde pelo prazo irredutível de cinco anos. E o dono da obra tem 180 dias, a partir do vício, para agir.",
+          "fonte": "Código Civil, art. 618"
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Projeto pedia vidro de controle solar. Instalaram comum.",
+          "texto": "A cliente assinou a entrega — leiga, não identifica vidro. Meses depois os móveis queimaram. Vício oculto: troca de todos os vidros e dos móveis."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Garantia sem manutenção registrada.",
+          "texto": "A garantia só vale se o usuário cumpriu o manual. Ninguém deixa o carro 10 anos com o mesmo pneu — mas deixa a esquadria 10 anos sem trocar roldana."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Para quem compra",
+          "titulo": "Vistoria técnica no recebimento das chaves.",
+          "texto": "O que é aparente e não foi reclamado no recebimento, perde. Leve quem enxerga."
+        },
+        {
+          "tipo": "cta",
+          "produto": "venda-blindada",
+          "titulo": "Quem entrega esquadria precisa de garantia com regra escrita."
+        }
       ],
-      "legenda": "\"A responsabilidade acabou com cinco anos.\" É a frase que mais ouço — e que mais custa caro.\n\nO Código Civil (art. 618) diz que o empreiteiro responde pelo prazo irredutível de cinco anos pela solidez e segurança da obra, e que o dono da obra decai do direito se não agir nos 180 dias seguintes ao aparecimento do vício. Mas o relógio do vício oculto é outro: pelo CDC (art. 26, §3º), o prazo só começa a contar quando o defeito fica evidenciado. A garantia começa no problema.\n\nVício aparente é o que qualquer pessoa percebe na entrega: porta desalinhada, risco, movimentação incorreta. Tem 90 dias para reclamar, contados da entrega — e o que não foi apontado no recebimento, se perde. Por isso a vistoria técnica no recebimento das chaves deixou de ser luxo.\n\nVício oculto é o perigoso: uma falha interna, mecânica, de chumbamento, de especificação, que não aparece no início e só se revela com o uso — muitas vezes quando já está crítico. O leigo não enxerga; um profissional experiente identifica os sinais.\n\nUm caso: o projeto pedia vidro de controle solar; o fabricante instalou vidro comum. A cliente assinou a entrega — e uma pessoa leiga não identifica vidro. Meses depois, os móveis queimaram. Vício oculto: troca de todos os vidros e dos móveis.\n\nE do outro lado do balcão: a garantia só se sustenta se o usuário cumpriu o manual de uso e manutenção — e se isso está registrado. Quem entrega sem manual assume a responsabilidade inteira; quem recebe e não faz manutenção também.\n\nSegurança jurídica e técnica caminham juntas. Informação protege.\n\nA sua obra entrega manual de uso e manutenção assinado? Me conta nos comentários.\n\n@peritomauricioboschetti\n\n#viciooculto #garantia #cdc #codigocivil #engenhariacivil #esquadrias #construcaocivil #arquitetura #periciajudicial #responsabilidadetecnica"
+      "legenda": "\"A responsabilidade acabou com cinco anos.\" É a frase que mais ouço — e que mais custa caro.\n\nO Código Civil (art. 618) diz que o empreiteiro responde pelo prazo irredutível de cinco anos pela solidez e segurança da obra, e que o dono da obra decai do direito se não agir nos 180 dias seguintes ao aparecimento do vício. Mas o relógio do vício oculto é outro: pelo CDC (art. 26, §3º), o prazo só começa a contar quando o defeito fica evidenciado. A garantia começa no problema.\n\nVício aparente é o que qualquer pessoa percebe na entrega: porta desalinhada, risco, movimentação incorreta. Tem 90 dias para reclamar, contados da entrega — e o que não foi apontado no recebimento, se perde. Por isso a vistoria técnica no recebimento das chaves deixou de ser luxo.\n\nVício oculto é o perigoso: uma falha interna, mecânica, de chumbamento, de especificação, que não aparece no início e só se revela com o uso — muitas vezes quando já está crítico. O leigo não enxerga; um profissional experiente identifica os sinais.\n\nUm caso: o projeto pedia vidro de controle solar; o fabricante instalou vidro comum. A cliente assinou a entrega — e uma pessoa leiga não identifica vidro. Meses depois, os móveis queimaram. Vício oculto: troca de todos os vidros e dos móveis.\n\nE do outro lado do balcão: a garantia só se sustenta se o usuário cumpriu o manual de uso e manutenção — e se isso está registrado. Quem entrega sem manual assume a responsabilidade inteira; quem recebe e não faz manutenção também.\n\nSegurança jurídica e técnica caminham juntas. Informação protege.\n\nA sua obra entrega manual de uso e manutenção assinado? Me conta nos comentários.\n\nSe você entrega esquadria, garantia e manutenção precisam de regra escrita — senão vale o prazo da lei. O Venda Blindada é o contrato técnico que define isso antes da obra. mauricio.consultglass.net.br/venda-blindada-esquadrias.\n\n@peritomauricioboschetti\n\n#viciooculto #garantia #cdc #codigocivil #engenhariacivil #esquadrias #construcaocivil #arquitetura #periciajudicial #responsabilidadetecnica"
     },
     "a-falha-comeca-antes-da-esquadria": {
       "titulo": "A falha começa antes da esquadria",
       "fonte": "Legenda 29/04/2026 ('um contramarco mal instalado compromete toda a esquadria'); Reel 01/04/2026 (prédio de 14 andares); Premium Cast jul/2025 ('hoje o vão tem de ser projetado para a esquadria'; compatibilização); carrossel @consult.glass 16/03/2026 (vão errado: contramarco fora de prumo, sem impermeabilização, pedra mal instalada); Aluparts EP20 (o vão oco).",
-      "cta": {"tipo": "salvar"},
+      "cta": {
+        "tipo": "pericia"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "fesqua-corredor.jpg", "etiqueta": "Contramarco e vão", "gancho": "Tem obra que já começa errada. Ninguém percebe."},
-        {"tipo": "texto", "titulo": "Um contramarco mal instalado compromete toda a esquadria.", "texto": "Mesmo com o melhor vidro, a melhor linha, a melhor ferragem. O desempenho começa na base."},
-        {"tipo": "lista", "titulo": "Vão errado: os três sinais", "itens": [["Contramarco fora de prumo", "A folha nunca vai vedar."], ["Sem impermeabilização", "A água entra por baixo, não pela janela."], ["Pedra mal instalada", "O peitoril devolve a água para dentro."]]},
-        {"tipo": "alerta", "titulo": "Trocar silicone, vedação ou a própria esquadria.", "texto": "Não resolve. A origem da patologia está no vão — e ela acompanha o prédio para sempre."},
-        {"tipo": "texto", "rotulo": "O que mudou", "titulo": "Hoje, o vão é projetado para a esquadria.", "texto": "Antes era o contrário. Portas grandes descarregam carga e vento que a viga não previu — isso se resolve na compatibilização."},
-        {"tipo": "pericia", "titulo": "Prédio de 14 andares, sem nenhuma esquadria instalada.", "texto": "Já dava para saber que aquela janela ia dar problema: o preparo do substrato não foi feito."},
-        {"tipo": "texto", "rotulo": "Quem responde", "titulo": "A esquadria tem o dever de recusar o vão.", "texto": "Recebeu o vão errado e instalou? A responsabilidade passou a ser dela."},
-        {"tipo": "cta", "titulo": "Salve para a próxima liberação de vãos."}
+        {
+          "tipo": "capa",
+          "foto": "fesqua-corredor.jpg",
+          "etiqueta": "Contramarco e vão",
+          "gancho": "Tem obra que já começa errada. Ninguém percebe."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Um contramarco mal instalado compromete toda a esquadria.",
+          "texto": "Mesmo com o melhor vidro, a melhor linha, a melhor ferragem. O desempenho começa na base."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Vão errado: os três sinais",
+          "itens": [
+            [
+              "Contramarco fora de prumo",
+              "A folha nunca vai vedar."
+            ],
+            [
+              "Sem impermeabilização",
+              "A água entra por baixo, não pela janela."
+            ],
+            [
+              "Pedra mal instalada",
+              "O peitoril devolve a água para dentro."
+            ]
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Trocar silicone, vedação ou a própria esquadria.",
+          "texto": "Não resolve. A origem da patologia está no vão — e ela acompanha o prédio para sempre."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "O que mudou",
+          "titulo": "Hoje, o vão é projetado para a esquadria.",
+          "texto": "Antes era o contrário. Portas grandes descarregam carga e vento que a viga não previu — isso se resolve na compatibilização."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Prédio de 14 andares, sem nenhuma esquadria instalada.",
+          "texto": "Já dava para saber que aquela janela ia dar problema: o preparo do substrato não foi feito."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Quem responde",
+          "titulo": "A esquadria tem o dever de recusar o vão.",
+          "texto": "Recebeu o vão errado e instalou? A responsabilidade passou a ser dela."
+        },
+        {
+          "tipo": "cta",
+          "produto": "pericia",
+          "titulo": "Infiltração que volta toda chuva? A causa tem documento."
+        }
       ],
-      "legenda": "Tem obra que já começa errada e ninguém percebe. Antes mesmo de a esquadria chegar, já existe um problema ali esperando para aparecer. E quando aparece, a culpa cai no lugar errado.\n\nUm contramarco mal instalado compromete toda a esquadria. Mesmo com o melhor vidro, a melhor linha, a melhor ferragem. Porque o desempenho começa antes da instalação: começa na base.\n\nOs sinais de vão errado se repetem: contramarco fora de prumo, ausência de impermeabilização e pedra de peitoril mal instalada. O resultado é infiltração recorrente — e uma patologia que não desaparece. Troca-se o silicone, a vedação, até a esquadria inteira, e o problema continua, porque a origem está na preparação do vão.\n\nO que mudou no mercado: antigamente a esquadria era projetada para o vão. Hoje, com portas e panos de grandes dimensões, o vão precisa ser projetado para a esquadria. A carga pontual e a pressão de vento que chegam à parede e à viga precisam estar previstas — e isso só acontece na compatibilização de projeto, que quase sempre cuida do encanamento e esquece de um item que representa boa parte do custo da obra.\n\nEm visita recente a um prédio de 14 andares, sem nenhuma esquadria instalada, já dava para saber quais janelas iam dar problema: o preparo do substrato não tinha sido feito.\n\nE quem responde? A empresa de esquadria tem o dever de recusar o vão. Recebeu errado, parafusou e seguiu: a responsabilidade passou a ser dela.\n\nEsquadria não é detalhe. É parte da qualidade final da entrega.\n\nSalve este post para a próxima liberação de vãos. Na sua obra, quem confere o vão antes de liberar a instalação?\n\n@peritomauricioboschetti\n\n#contramarco #esquadrias #infiltracao #compatibilizacao #engenhariacivil #construcaocivil #arquitetura #construtora #responsabilidadetecnica #periciajudicial"
+      "legenda": "Tem obra que já começa errada e ninguém percebe. Antes mesmo de a esquadria chegar, já existe um problema ali esperando para aparecer. E quando aparece, a culpa cai no lugar errado.\n\nUm contramarco mal instalado compromete toda a esquadria. Mesmo com o melhor vidro, a melhor linha, a melhor ferragem. Porque o desempenho começa antes da instalação: começa na base.\n\nOs sinais de vão errado se repetem: contramarco fora de prumo, ausência de impermeabilização e pedra de peitoril mal instalada. O resultado é infiltração recorrente — e uma patologia que não desaparece. Troca-se o silicone, a vedação, até a esquadria inteira, e o problema continua, porque a origem está na preparação do vão.\n\nO que mudou no mercado: antigamente a esquadria era projetada para o vão. Hoje, com portas e panos de grandes dimensões, o vão precisa ser projetado para a esquadria. A carga pontual e a pressão de vento que chegam à parede e à viga precisam estar previstas — e isso só acontece na compatibilização de projeto, que quase sempre cuida do encanamento e esquece de um item que representa boa parte do custo da obra.\n\nEm visita recente a um prédio de 14 andares, sem nenhuma esquadria instalada, já dava para saber quais janelas iam dar problema: o preparo do substrato não tinha sido feito.\n\nE quem responde? A empresa de esquadria tem o dever de recusar o vão. Recebeu errado, parafusou e seguiu: a responsabilidade passou a ser dela.\n\nEsquadria não é detalhe. É parte da qualidade final da entrega.\n\nSalve este post para a próxima liberação de vãos. Na sua obra, quem confere o vão antes de liberar a instalação?\n\nInfiltração que some no verão e volta na primeira chuva de vento tem causa — e a causa tem documento. A perícia técnica identifica onde começou e quem responde. mauricio.consultglass.net.br/pericia-tecnica.\n\n@peritomauricioboschetti\n\n#contramarco #esquadrias #infiltracao #compatibilizacao #engenhariacivil #construcaocivil #arquitetura #construtora #responsabilidadetecnica #periciajudicial"
     },
     "guarnicao-o-detalhe-que-decide-a-fachada": {
       "titulo": "Guarnição: o detalhe que decide a fachada",
       "fonte": "Reels 13/09/2026 na FESQUA com a Sintex (938 e 39 curtidas): 'borracha não é tudo igual', 'a ausência de vulcanização é 50% das patologias de fachada que vejo'; Premium Cast jul/2025 (componente × acessório, roldana de 7 e de 150); Aluparts EP20 (gaxeta vulcanizada: está no manual do sistemista, não na 10821).",
-      "cta": {"tipo": "enviar"},
+      "cta": {
+        "tipo": "metodo-blindar"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "epdm-maos.jpg", "etiqueta": "Vedação", "gancho": "Borracha não é tudo igual."},
-        {"tipo": "texto", "titulo": "A guarnição é uma parcela mínima do valor da esquadria.", "texto": "E tem papel enorme no desempenho. É onde se economiza — e onde o pós-obra nasce."},
-        {"tipo": "lista", "titulo": "O que a guarnição barata faz depois", "itens": [["Esbranquiça", "E o cliente enxerga."], ["Encolhe", "E a água entra."], ["Perde vedação", "E o caminhão do pós-obra vai e volta."]]},
-        {"tipo": "texto", "rotulo": "Componente não é acessório", "titulo": "Guarnição e roldana são componentes: foram projetados e testados.", "texto": "Trocar fecho por cremona é acessório. Trocar a borracha é mexer na engenharia do produto."},
-        {"tipo": "pericia", "titulo": "Pele de vidro sem os cantos vulcanizados.", "texto": "Na minha experiência, é metade das patologias de fachada que chegam à perícia. Sem vulcanizar, a fachada não é estanque."},
-        {"tipo": "alerta", "titulo": "\"Mas isso não está na norma.\"", "texto": "Está no manual do sistemista. Na perícia, norma, catálogo e boas práticas têm o mesmo peso."},
-        {"tipo": "cta", "titulo": "Envie para quem compra componente pelo preço."}
+        {
+          "tipo": "capa",
+          "foto": "epdm-maos.jpg",
+          "etiqueta": "Vedação",
+          "gancho": "Borracha não é tudo igual."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "A guarnição é uma parcela mínima do valor da esquadria.",
+          "texto": "E tem papel enorme no desempenho. É onde se economiza — e onde o pós-obra nasce."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que a guarnição barata faz depois",
+          "itens": [
+            [
+              "Esbranquiça",
+              "E o cliente enxerga."
+            ],
+            [
+              "Encolhe",
+              "E a água entra."
+            ],
+            [
+              "Perde vedação",
+              "E o caminhão do pós-obra vai e volta."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Componente não é acessório",
+          "titulo": "Guarnição e roldana são componentes: foram projetados e testados.",
+          "texto": "Trocar fecho por cremona é acessório. Trocar a borracha é mexer na engenharia do produto."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Pele de vidro sem os cantos vulcanizados.",
+          "texto": "Na minha experiência, é metade das patologias de fachada que chegam à perícia. Sem vulcanizar, a fachada não é estanque."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "\"Mas isso não está na norma.\"",
+          "texto": "Está no manual do sistemista. Na perícia, norma, catálogo e boas práticas têm o mesmo peso."
+        },
+        {
+          "tipo": "cta",
+          "produto": "metodo-blindar",
+          "titulo": "Construtora: quem confere o componente antes de receber?"
+        }
       ],
-      "legenda": "Borracha não é tudo igual. EPDM não é tudo igual.\n\nA guarnição representa uma parcela mínima do valor de uma esquadria — e tem um papel enorme no desempenho. Por isso é o item em que se economiza no fim do orçamento. E é exatamente ali que o pós-obra nasce: a guarnição não especificada, não homologada, esbranquiça, encolhe, perde vedação. O caminhão vai e volta, o funcionário se desloca, e a economia de centavos vira custo de meses.\n\nUm conceito que resolve muita discussão: componente não é acessório. Componente é o que foi projetado e ensaiado junto com o sistema — guarnição, roldana, vedação. Acessório é o que não interfere na engenharia: trocar um fecho-concha por uma cremona. Quando você troca a borracha, está mexendo na engenharia mecânica do produto e saindo do método que foi testado. E quem sai do método assume o risco.\n\nNa fachada, o detalhe que mais vejo virar processo é a ausência de vulcanização dos cantos da gaxeta na pele de vidro. Na minha experiência de perícia, é metade das patologias de fachada. Sem vulcanizar, não há estanqueidade — o canto encostado ou colado deixa passar água.\n\n\"Mas isso não está na norma.\" Está no manual do sistemista. E na perícia, norma técnica, catálogo do fabricante e boas práticas de mercado têm o mesmo peso. Quem seguiu a norma e ignorou o catálogo tomou uma decisão sem ensaio.\n\nDetalhe também é engenharia, desempenho e experiência para o cliente.\n\nEnvie este post para quem decide componente pelo preço. Na sua última compra, alguém conferiu se a guarnição era a homologada para a linha?\n\n@peritomauricioboschetti\n\n#epdm #guarnicao #fachadas #peledevidro #estanqueidade #esquadrias #engenhariacivil #construcaocivil #periciajudicial #responsabilidadetecnica"
+      "legenda": "Borracha não é tudo igual. EPDM não é tudo igual.\n\nA guarnição representa uma parcela mínima do valor de uma esquadria — e tem um papel enorme no desempenho. Por isso é o item em que se economiza no fim do orçamento. E é exatamente ali que o pós-obra nasce: a guarnição não especificada, não homologada, esbranquiça, encolhe, perde vedação. O caminhão vai e volta, o funcionário se desloca, e a economia de centavos vira custo de meses.\n\nUm conceito que resolve muita discussão: componente não é acessório. Componente é o que foi projetado e ensaiado junto com o sistema — guarnição, roldana, vedação. Acessório é o que não interfere na engenharia: trocar um fecho-concha por uma cremona. Quando você troca a borracha, está mexendo na engenharia mecânica do produto e saindo do método que foi testado. E quem sai do método assume o risco.\n\nNa fachada, o detalhe que mais vejo virar processo é a ausência de vulcanização dos cantos da gaxeta na pele de vidro. Na minha experiência de perícia, é metade das patologias de fachada. Sem vulcanizar, não há estanqueidade — o canto encostado ou colado deixa passar água.\n\n\"Mas isso não está na norma.\" Está no manual do sistemista. E na perícia, norma técnica, catálogo do fabricante e boas práticas de mercado têm o mesmo peso. Quem seguiu a norma e ignorou o catálogo tomou uma decisão sem ensaio.\n\nDetalhe também é engenharia, desempenho e experiência para o cliente.\n\nEnvie este post para quem decide componente pelo preço. Na sua última compra, alguém conferiu se a guarnição era a homologada para a linha?\n\nNa construtora, isso se resolve com critério de recebimento: comparar o executado com o aprovado antes de liberar o pagamento. É uma das doze ferramentas do Método Blindar. mauricio.consultglass.net.br/metodo-blindar.\n\n@peritomauricioboschetti\n\n#epdm #guarnicao #fachadas #peledevidro #estanqueidade #esquadrias #engenhariacivil #construcaocivil #periciajudicial #responsabilidadetecnica"
     },
     "termo-assinado-pelo-cliente-nao-vale": {
       "titulo": "Termo assinado pelo cliente não vale",
       "fonte": "Live Café + Conteúdo 22/04/2025 e Vidro na Obra #69 ('não existe transferência de responsabilidade técnica'; termo de ciência; baixar a ART); Premium Cast jul/2025; Reel 26/09/2025 (culpa subjetiva tem de ser provada); CDC art. 39, VIII — conferido.",
-      "cta": {"tipo": "pergunta"},
+      "cta": {
+        "tipo": "seguir"
+      },
       "slides": [
-        {"tipo": "capa", "foto": "livro-rua.jpg", "etiqueta": "Responsabilidade", "gancho": "\"Assina aqui que você quis temperado.\""},
-        {"tipo": "texto", "titulo": "Ouço isso desde que comecei.", "texto": "O cliente assina um termo assumindo o produto fora de norma. Não existe transferência de responsabilidade técnica."},
-        {"tipo": "texto", "rotulo": "Por que não vale", "titulo": "O cliente é leigo. Quem tem de saber é o profissional.", "texto": "O termo atesta que você sabia que não podia — e ofereceu mesmo assim. Piora a sua situação."},
-        {"tipo": "norma", "rotulo": "A lei diz", "titulo": "Produto fora da norma não pode ser vendido", "texto": "É vedado colocar no mercado produto ou serviço em desacordo com as normas oficiais ou da ABNT.", "fonte": "CDC, art. 39, VIII"},
-        {"tipo": "lista", "titulo": "O que existe, e para quem", "itens": [["Empresa de esquadria", "Só uma saída: \"não posso executar, não é normativo\"."], ["Engenheiro e arquiteto", "Termo de ciência: orientou, citou a norma, registrou que discorda."], ["Se o cliente insistir", "Baixa a ART e sai da obra."]]},
-        {"tipo": "alerta", "titulo": "Nem o termo de ciência tira você do processo.", "texto": "Ele pesa na leitura do juiz — mostra que não houve intenção de ganho. Não é blindagem. É resguardo."},
-        {"tipo": "pericia", "titulo": "Culpa subjetiva precisa ser provada.", "texto": "\"Avisei a construtora que o produto não era normativo e ela mandou executar.\" Só vale escrito, com recebimento confirmado."},
-        {"tipo": "cta", "titulo": "Você já assinou — ou fez alguém assinar — um termo desses?"}
+        {
+          "tipo": "capa",
+          "foto": "livro-rua.jpg",
+          "etiqueta": "Responsabilidade",
+          "gancho": "\"Assina aqui que você quis temperado.\""
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Ouço isso desde que comecei.",
+          "texto": "O cliente assina um termo assumindo o produto fora de norma. Não existe transferência de responsabilidade técnica."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Por que não vale",
+          "titulo": "O cliente é leigo. Quem tem de saber é o profissional.",
+          "texto": "O termo atesta que você sabia que não podia — e ofereceu mesmo assim. Piora a sua situação."
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "Produto fora da norma não pode ser vendido",
+          "texto": "É vedado colocar no mercado produto ou serviço em desacordo com as normas oficiais ou da ABNT.",
+          "fonte": "CDC, art. 39, VIII"
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que existe, e para quem",
+          "itens": [
+            [
+              "Empresa de esquadria",
+              "Só uma saída: \"não posso executar, não é normativo\"."
+            ],
+            [
+              "Engenheiro e arquiteto",
+              "Termo de ciência: orientou, citou a norma, registrou que discorda."
+            ],
+            [
+              "Se o cliente insistir",
+              "Baixa a ART e sai da obra."
+            ]
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Nem o termo de ciência tira você do processo.",
+          "texto": "Ele pesa na leitura do juiz — mostra que não houve intenção de ganho. Não é blindagem. É resguardo."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Culpa subjetiva precisa ser provada.",
+          "texto": "\"Avisei a construtora que o produto não era normativo e ela mandou executar.\" Só vale escrito, com recebimento confirmado."
+        },
+        {
+          "tipo": "cta",
+          "produto": "seguir",
+          "titulo": "Antes de assinar, entenda o que está assinando."
+        }
       ],
-      "legenda": "\"Assina aqui que você está querendo temperado.\"\n\nOuço isso desde que comecei a trabalhar com norma — e ainda ouço. O cliente assina um termo assumindo a responsabilidade pelo guarda-corpo mais baixo, pelo vidro errado, pela roldana de 200 kg numa porta de 300. E a empresa acredita que está protegida.\n\nNão existe transferência de responsabilidade técnica. O cliente é a parte leiga; quem tem a obrigação legal e técnica de saber é o profissional. Pior: o termo atesta, por escrito, que você sabia que aquele produto não podia ser executado e o ofereceu mesmo assim. Num processo, isso prova intenção — e intenção é o que transforma um processo civil em criminal.\n\nA base é o art. 39, inciso VIII, do Código de Defesa do Consumidor: é vedado colocar no mercado produto ou serviço em desacordo com as normas. A empresa de esquadria, que responde de forma objetiva, tem uma única saída: \"não posso executar nesse formato, porque não é normativo\". Não há meio-termo.\n\nPara o engenheiro e o arquiteto existe um instrumento diferente: o termo de ciência. Ele orienta o cliente, cita as normas (7199, 10821, 14718), registra que discorda — e, se o cliente insistir, baixa a ART e deixa a obra. Isso não é blindagem; é resguardo técnico. Pesa na interpretação do juiz porque mostra que não houve ganho nem omissão. Mas não tira ninguém do processo.\n\nE lembre: a culpa do profissional liberal é subjetiva — precisa ser provada. \"Avisei que não era normativo e a construtora mandou executar\" só existe se estiver escrito, com recebimento confirmado.\n\nQuem trabalha assim não se protege apenas juridicamente. Constrói credibilidade técnica de longo prazo.\n\nVocê já assinou — ou fez alguém assinar — um termo desses? Me conta o que aconteceu depois.\n\n@peritomauricioboschetti\n\n#responsabilidadetecnica #cdc #normatecnica #engenhariacivil #arquitetura #esquadrias #guardacorpo #construcaocivil #periciajudicial #blindagemprofissional"
+      "legenda": "\"Assina aqui que você está querendo temperado.\"\n\nOuço isso desde que comecei a trabalhar com norma — e ainda ouço. O cliente assina um termo assumindo a responsabilidade pelo guarda-corpo mais baixo, pelo vidro errado, pela roldana de 200 kg numa porta de 300. E a empresa acredita que está protegida.\n\nNão existe transferência de responsabilidade técnica. O cliente é a parte leiga; quem tem a obrigação legal e técnica de saber é o profissional. Pior: o termo atesta, por escrito, que você sabia que aquele produto não podia ser executado e o ofereceu mesmo assim. Num processo, isso prova intenção — e intenção é o que transforma um processo civil em criminal.\n\nA base é o art. 39, inciso VIII, do Código de Defesa do Consumidor: é vedado colocar no mercado produto ou serviço em desacordo com as normas. A empresa de esquadria, que responde de forma objetiva, tem uma única saída: \"não posso executar nesse formato, porque não é normativo\". Não há meio-termo.\n\nPara o engenheiro e o arquiteto existe um instrumento diferente: o termo de ciência. Ele orienta o cliente, cita as normas (7199, 10821, 14718), registra que discorda — e, se o cliente insistir, baixa a ART e deixa a obra. Isso não é blindagem; é resguardo técnico. Pesa na interpretação do juiz porque mostra que não houve ganho nem omissão. Mas não tira ninguém do processo.\n\nE lembre: a culpa do profissional liberal é subjetiva — precisa ser provada. \"Avisei que não era normativo e a construtora mandou executar\" só existe se estiver escrito, com recebimento confirmado.\n\nQuem trabalha assim não se protege apenas juridicamente. Constrói credibilidade técnica de longo prazo.\n\nVocê já assinou — ou fez alguém assinar — um termo desses? Me conta o que aconteceu depois.\n\nAntes de assinar — ou de fazer alguém assinar — entenda o que está assinando. É disso que este perfil trata. Siga @peritomauricioboschetti.\n\n#responsabilidadetecnica #cdc #normatecnica #engenhariacivil #arquitetura #esquadrias #guardacorpo #construcaocivil #periciajudicial #blindagemprofissional"
     }
   }
 }
