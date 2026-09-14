@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-14T19:38",
+  "gerado_em": "2026-09-14T22:40",
   "regra": "terça e sexta, 7h, à mão pelo app, com a música fixa",
   "itens": [
     {
@@ -40,6 +40,46 @@
         "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-18/slide-07.jpg"
       ],
       "legenda": "Vidro não é bom ou ruim. Vidro é correto ou incorreto para cada uso.\n\nO vidro temperado é, sim, mais resistente que o comum: passou por processo térmico, ganhou resistência mecânica e, quando rompe, fragmenta em pedaços pequenos e menos cortantes. O problema começa quando ele é especificado fora do contexto. Guarda-corpo, cobertura, grandes panos verticais e portas de grande altura não podem usar temperado monolítico: na ruptura, o vão abre na hora.\n\nVidro de segurança para essas aplicações é o laminado: duas ou mais chapas unidas por interlayer (PVB, EVA ou estrutural). Mesmo quebrado, permanece íntegro. Em aplicações críticas, o laminado temperado combina a resistência do temperado com a retenção do laminado — e ainda assim exige projeto, cálculo e especificação.\n\nA NBR 7199 define onde o vidro de segurança é obrigatório: áreas sujeitas a impacto humano abaixo de 1,10 m, portas em qualquer altura e as áreas até 60 cm das bordas da porta (emenda de 2025), além de ambientes com crianças, idosos, saúde, esporte e grande público. O vidro aramado deixou de ser classificado como segurança.\n\nE o erro mais sutil: usar o laminado certo e apoiá-lo errado. Laminado bi-apoiado, sem colagem estrutural, dobra. É ler a tabela sem ler a norma.\n\nGuarda-corpo jamais é decisão estética. É decisão técnica. E decisão técnica salva vidas.\n\nEnvie este post para quem está especificando vidro na sua obra agora. Qual vidro está no memorial do seu guarda-corpo?\n\nAqui eu trato vidro, esquadria e fachada com o critério de quem vê o fim da história na perícia. Siga @peritomauricioboschetti.\n\n#vidrodeseguranca #nbr7199 #vidrolaminado #vidrotemperado #guardacorpo #engenhariacivil #arquitetura #esquadrias #construcaocivil #periciajudicial"
+    },
+    {
+      "data": "2026-09-22",
+      "dia": "ter",
+      "hora": "07:00",
+      "slug": "a-lei-diz-se-pode-a-norma-diz-como",
+      "titulo": "A lei diz se pode. A norma diz como.",
+      "cta": "Venda Blindada",
+      "musica": "música fixa da conta",
+      "slides": [
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-01.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-02.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-03.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-04.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-05.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-06.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-07.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-22/slide-08.jpg"
+      ],
+      "legenda": "A lei diz o que você pode ou não fazer. A norma diz como você deve fazer. A norma é o detalhamento da lei.\n\nDurante anos o setor repetiu que \"norma não é lei, mas tem força de lei\". Eu também dizia. Mudei quando li o Código de Defesa do Consumidor com atenção: o art. 39, inciso VIII, veda colocar no mercado qualquer produto ou serviço em desacordo com as normas dos órgãos oficiais ou, na falta delas, da ABNT. O CDC é lei. Se a lei proíbe produto fora da norma, não seguir a norma é infringir a lei. Para produto técnico — esquadria, vidro, fachada, guarda-corpo — não há como separar uma coisa da outra.\n\nDois desdobramentos que o mercado ainda não absorveu:\n\n1. Norma é o mínimo. Está escrito nela: \"requisitos mínimos\". Chegar na norma não é diferencial; é o ponto de partida. Quem se vangloria de seguir a norma está se vangloriando de fazer o mínimo.\n\n2. Norma, catálogo do sistemista e boas práticas têm o mesmo peso na perícia. Quem seguiu a norma mas saiu do método testado pelo fabricante tomou uma decisão sem laudo. E o que ainda não está escrito em norma, mas todo o mercado sabe que dá problema, também é levado em conta por peritos e juízes.\n\nNa prática, nenhuma decisão jurídica se sustenta sem base normativa. Quando algo falha, a análise sempre volta para a norma técnica aplicada — ou ignorada. É o primeiro documento que abro num laudo.\n\nE você: para esquadria e vidro, norma é lei ou não é? Me conta nos comentários.\n\nSe você fabrica e instala esquadrias, a norma diz como fazer — e o contrato precisa dizer de quem é cada responsabilidade. É isso que o Venda Blindada resolve: contrato técnico com escopo, medição, prazos, recebimento e responsabilidades definidos. mauricio.consultglass.net.br/venda-blindada-esquadrias.\n\n@peritomauricioboschetti\n\n#normatecnica #cdc #abnt #engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional"
+    },
+    {
+      "data": "2026-09-25",
+      "dia": "sex",
+      "hora": "07:00",
+      "slug": "o-que-nao-esta-documentado-nao-existe",
+      "titulo": "O que não está documentado não existe",
+      "cta": "Método Blindar",
+      "musica": "música fixa da conta",
+      "slides": [
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-01.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-02.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-03.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-04.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-05.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-06.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-07.jpg",
+        "https://raw.githubusercontent.com/diegohenriquemoraes-eng/posts-consultglass/main/imagens/2026-09-25/slide-08.jpg"
+      ],
+      "legenda": "O que não está documentado não existe legalmente.\n\nA frase que abre minhas palestras sobre blindagem judicial incomoda porque é simples. Você avisou o cliente? Verbalmente. Orientou o engenheiro da obra sobre o vão? Numa conversa. Entregou o manual? Deixou em cima da bancada. Numa perícia, nada disso existe.\n\nBlindagem judicial é uma base de documentação, uma base de registro fotográfico e uma base legal em que fica clara a responsabilidade de cada um. Na prática:\n\n– contrato com escopo, medição, prazos, recebimento e responsabilidades;\n– memorial descritivo (quando a informação não está clara, o Código de Defesa do Consumidor entende como omissão de dado essencial);\n– diário de obra e e-mail com confirmação de recebimento para toda comunicação técnica relevante;\n– registro fotográfico antes, durante e na entrega;\n– manual de uso, operação e manutenção e termo de garantia, com assinatura de recebimento.\n\nPor que a assinatura importa: quem prova é a parte acionada. O cliente é leigo e não tem de provar nada. A empresa tem de provar que entregou, que orientou e que registrou. E print de conversa é editável; o que se audita é o registro rastreável.\n\nÉtica é o que você faz quando ninguém está vendo. Ética na prática é um volume de decisões registradas, observáveis e auditáveis. Se não é auditável, o que você escondeu?\n\nSalve este post e confira, na próxima entrega, o que está faltando. Qual desses cinco documentos a sua obra não tem hoje?\n\nPara construtora e incorporadora, o Método Blindar instala esse critério do projeto ao recebimento, em cinco encontros com a sua equipe e doze ferramentas aplicadas na sua obra. mauricio.consultglass.net.br/metodo-blindar.\n\n@peritomauricioboschetti\n\n#blindagemprofissional #responsabilidadetecnica #memorialdescritivo #diariodeobra #engenhariacivil #esquadrias #construcaocivil #arquitetura #periciajudicial #gestaodeobras"
     }
   ]
 }
