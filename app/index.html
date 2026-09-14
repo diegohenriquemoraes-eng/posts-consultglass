@@ -76,9 +76,9 @@ header{background:var(--paper); border-bottom:1px solid var(--line); margin:0 -1
 .btn.ok{background:var(--done-soft); border:1px solid var(--done); color:var(--done)}
 .btn:disabled{opacity:.5}
 .aviso{font-family:"IBM Plex Mono",monospace; font-size:13px; color:var(--ink-3); margin:10px 0 0; min-height:1.2em}
-.leg{white-space:pre-wrap; font-size:15px; color:var(--ink-2); margin-top:10px; background:var(--sunk);
+.legbox{white-space:pre-wrap; font-size:15px; color:var(--ink-2); margin-top:10px; background:var(--sunk);
   border-radius:10px; padding:12px; max-height:220px; overflow:auto; display:none}
-.leg.show{display:block}
+.legbox.show{display:block}
 .vazio{padding:40px 0; text-align:center; color:var(--ink-3); font-family:"Barlow Condensed",sans-serif; font-size:22px; text-transform:uppercase; letter-spacing:.05em}
 </style>
 </head>
@@ -135,7 +135,7 @@ async function render(){
         <a class="btn sec" href="https://www.instagram.com/" target="_blank" rel="noopener">Abrir o Instagram</a>
         <button class="btn ${ok?"ok":"sec"}" id="tick">${ok ? "✓ Postado" : "Marcar como postado"}</button>
         <p class="aviso" id="aviso"></p>
-        <div class="leg" id="leg">${esc(it.legenda)}</div>
+        <div class="legbox" id="leg">${esc(it.legenda)}</div>
       </div>
     </section>`;
   $("#copiar").onclick = async () => {

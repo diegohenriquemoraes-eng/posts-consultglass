@@ -14,6 +14,7 @@ Uso:
     python preparar.py --semana            # as duas da próxima semana (terça e sexta)
     python preparar.py --semana --data 2026-09-22
     python preparar.py --slug X --data 2026-09-19   # refaz uma peça sem mexer na sequência
+    python preparar.py --refazer           # re-renderiza o que já está agendado (roda a cada push)
     python preparar.py --so-agenda         # só reescreve docs/agenda.json a partir de preparados.json
 
 Local (Windows) também copia cada peça para Perffec\\Claude\\Instagram-Mauricio\\<data>-<slug>\\.
@@ -121,6 +122,7 @@ def main() -> None:
     ap.add_argument("--slug", help="prepara uma peça específica (não avança a sequência)")
     ap.add_argument("--data", help="AAAA-MM-DD da primeira publicação")
     ap.add_argument("--so-agenda", action="store_true")
+    ap.add_argument("--refazer", action="store_true", help="re-renderiza as peças já agendadas (a partir de hoje) sem avançar a sequência")
     args = ap.parse_args()
 
     banco = _carregar(BANCO, {})
@@ -129,6 +131,15 @@ def main() -> None:
     if args.so_agenda:
         escrever_agenda(preparados, banco)
         print("agenda reescrita")
+        return
+
+    if args.refazer:
+        hoje_iso = dt.date.today().isoformat()
+        for p in preparados:
+            if p["data"] >= hoje_iso and p["slug"] in banco["pecas"]:
+                renderizar(p["slug"], dt.date.fromisoformat(p["data"]), banco)
+                print(f"refeito: {p['data']} {p['slug']}")
+        escrever_agenda(preparados, banco)
         return
 
     hoje = dt.date.today()

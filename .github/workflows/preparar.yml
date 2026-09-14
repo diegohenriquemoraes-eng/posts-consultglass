@@ -2,7 +2,8 @@ name: Preparar a semana
 
 # Domingo 18h BRT (21:00 UTC) renderiza as duas pecas da semana (terca e sexta, 7h) e
 # publica docs/agenda.json + imagens/<data>/ — e' isso que o app Canteiro Consult Glass le.
-# Tambem roda a cada mudanca em carrosseis.json (peca nova ou corrigida) e a pedido.
+# A cada push em carrosseis.json/gerador/fotos so RE-RENDERIZA o que ja esta agendado (--refazer),
+# sem avancar a sequencia; a pedido (workflow_dispatch) prepara a semana ou refaz uma peca.
 # O Diego posta a mao, pelo app, com a musica fixa da conta. Nada e' publicado por API.
 
 on:
@@ -51,6 +52,7 @@ jobs:
         run: |
           git pull --rebase --quiet origin main
           args="--semana"
+          [ "${{ github.event_name }}" = "push" ] && args="--refazer"
           [ -n "${{ inputs.slug }}" ] && args="--slug ${{ inputs.slug }}"
           [ -n "${{ inputs.data }}" ] && args="$args --data ${{ inputs.data }}"
           python preparar.py $args
