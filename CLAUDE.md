@@ -7,7 +7,7 @@ a mini-aula do @vendanaobra), com a identidade e o CONHECIMENTO do Maurício.
 
 ## O que é
 
-2 carrosséis/semana (**segunda e quinta, 7h BRT**), 4:5, 7 a 9 slides, conteúdo de
+2 carrosséis/semana (**terça e sexta, 7h BRT**), 4:5, 7 a 9 slides, conteúdo de
 responsabilidade técnica, norma, perícia, esquadria, vidro, fachada e guarda-corpo, para
 construtora, incorporadora, engenheiro, arquiteto e síndico. **Toda peça sai do que o
 Maurício já disse em público** (4 podcasts, 102 Reels transcritos, legendas, palestras) ou de
@@ -21,26 +21,32 @@ território `25 Consult Glass` (ler `Voz do Maurício`, `Base legal e normativa 
 | Banco de peças (regras, sequência, slides, legenda) | `carrosseis.json` |
 | Pauta (temas com fonte e status) | `PAUTA-CARROSSEIS.md` |
 | Render | `gerar_carrossel.py` (Pillow, Plus Jakarta Sans + Bai Jamjuree, navy/teal da Consult Glass) |
-| Publicação automática | `publicar.py` + `.github/workflows/carrossel.yml` |
-| Preparar à mão | `python preparar.py --semana` → `saida/` + `Perffec\Claude\Instagram-Mauricio\<data>-<slug>\` |
+| Preparar a semana | `preparar.py --semana` → `imagens/<data>/` + `docs/agenda.json` (+ cópia em `Perffec\Claude\Instagram-Mauricio\` quando roda no PC) |
+| Registro do que foi preparado | `preparados.json` (a sequência anda a partir dele) |
+| **O app do celular** | `app/` → **https://canteiro-cg.vercel.app** (projeto Vercel `canteiro-cg`, conta site-vendanaobra). QR em `Perffec\Claude\Instagram-Mauricio\QR-canteiro-cg.png` |
 | Régua (roda em todo push) | `testes/test_pecas.py` — `python -m unittest discover -s testes` |
-| Fotos de capa | `fotos/` — o Maurício em ação, recortadas do acervo dele (Reels e fotos do perfil). Nunca banco de imagem |
+| Fotos de capa | `fotos/` — o Maurício em ação, recortadas do acervo dele. Nunca banco de imagem |
 
-## Como sai no ar
+## Como sai no ar — À MÃO, pelo app (decisão do Diego, 14/09/2026)
 
-`carrossel.yml` roda segunda e quinta (09:45 UTC espera até 10:00 = 7h BRT; repescagens 08:07 e
-12:23 BRT com `--garantir`). `publicar.py` renderiza, commita as imagens (repo **público** porque a
-API só aceita URL pública — `raw.githubusercontent`), sobe o carrossel e registra em
-`publicados.json`. Falha abre issue.
+Não publica por API. O Diego escolheu postar do celular, igual ao Canteiro do @vendanaobra,
+porque o carrossel leva a **música fixa da conta** (a Graph API não põe música):
 
-**Token**: a conta do Maurício é profissional (business, id `17841472330631162`) mas NÃO está no
-portfólio empresarial do Diego — o token de usuário do app vendanaobra não a alcança. O caminho é
-a **API do Instagram com login do Instagram** (`config.json: "api": "instagram"`, host
-`graph.instagram.com`): token de 60 dias, renovável com `refresh_access_token`. Secret
-`META_TOKEN_MAURICIO`; `ig_user_id` e `token_vence_em` em `config.json`. Renovar: `python
-renovar_token.py` (lê `Perffec\Claude\meta_token_mauricio.txt`, pede o token novo, grava o secret
-com a credencial do git, como o posts-perffec fez em 14/09). `publicar.py` aborta e abre issue com
-< 10 dias.
+1. **Domingo 18h17 BRT** o workflow `preparar.yml` roda `preparar.py --semana`: renderiza as
+   duas peças (terça e sexta), commita `imagens/<data>/` e `docs/agenda.json`. A cada push em
+   `carrosseis.json`/gerador/fotos ele só **re-renderiza o que já está agendado** (`--refazer`),
+   sem avançar a sequência. `workflow_dispatch` aceita `slug` + `data` para refazer uma peça.
+2. **Terça e sexta às 7h** o Diego abre o app (`canteiro-cg.vercel.app`, ícone na tela de início),
+   toca **Salvar os N slides em Fotos** (Web Share → "Salvar em Fotos", na ordem), **Copiar
+   legenda**, abre o Instagram, monta o carrossel com a música fixa, cola a legenda e marca
+   **Postado** (fica no aparelho, em `localStorage`).
+3. O app lê `docs/agenda.json` e os JPGs direto de `raw.githubusercontent.com` (repo público) —
+   por isso não precisa republicar o app quando entra peça nova; a Vercel só muda quando `app/`
+   muda (`cd app && XDG_DATA_HOME="$APPDATA/xdg.data" npx vercel@latest --prod --yes`).
+
+O caminho por API ficou documentado no cérebro caso um dia volte: a conta é profissional, o
+app Meta "Palavra Viva Reels" tem @peritomauricioboschetti como Testador do Instagram
+(convite pendente, inofensivo), e faltaria só aceitar o convite e gerar o token.
 
 ## Decisões
 
@@ -50,15 +56,18 @@ com a credencial do git, como o posts-perffec fez em 14/09). `publicar.py` abort
 - **Blocos**: "A norma diz / A lei diz" (teal-claro, sempre com `fonte`), "Onde vira processo"
   (vermelho) e "Na perícia" (navy) — o caso ou o critério. O "Na perícia" substitui o "Na Perffec":
   a prova de autoridade aqui é o caso, não a empresa.
-- **CTA em ciclo** salvar → enviar → pergunta, sem "comente a palavra" (não há robô de Direct).
-  Último slide leva o Raio-X da Obra (`/raio-x-da-obra`) — o boi de piranha do plano de crescimento.
+- **CTA em ciclo de produto** (Diego, 14/09/2026): seguir o perfil → **Venda Blindada** (contrato
+  técnico para quem fabrica e instala) → **Perícia técnica** (quando o dano já existe) → **Método
+  Blindar** (consultoria para construtoras). Sempre na voz do Maurício, texto da LP dele — nunca a
+  do Diego/Venda na Obra. O último slide (`produto`) e o fecho da legenda carregam a oferta; a
+  pergunta de engajamento continua antes. Sem "comente a palavra" (não há robô de Direct).
 - **Frases curtas** (regra do Diego, 14/09/2026): capa ≤ 8 palavras, título ≤ 14, corpo ≤ 32,
   item = rótulo + uma linha. O teste reprova o que passar disso.
 - **O que ele diz mas não foi confirmado NÃO entra como fato** (eng. mecânico obrigatório no CREA,
   30% do VGV, 40-50% da fábrica, os números do carrossel NBR 7199 do @consult.glass). O teste
   também barra isso. Lista completa em `25 Consult Glass/Base legal e normativa conferida.md`.
 - **CDC art. 39, inciso VIII** (não IV, como ele às vezes fala).
-- Dias seg/qui para não coincidir com o Perffec (ter/sex) na mesma manhã do Diego.
+- Terça e sexta, 7h — pedido do Diego (mesmos dias do Perffec; os dois saem pelo celular na mesma manhã).
 
 ## Régua
 
@@ -72,13 +81,13 @@ salvamentos caírem por 3 peças seguidas, mudar o tipo de capa antes de mudar o
 1. Escolher tema na `PAUTA-CARROSSEIS.md` — só o que tem fonte dele ou lei/norma conferida.
 2. Adicionar em `pecas` e em `sequencia` no `carrosseis.json`, com o campo `fonte` preenchido.
 3. `python -m unittest discover -s testes` (tem de passar).
-4. `python publicar.py --ensaio --slug <slug>` e olhar `imagens/<data>/visao-geral.jpg`.
+4. `python preparar.py --slug <slug> --data <AAAA-MM-DD>` e olhar `imagens/<data>/visao-geral.jpg`.
 
 ## Rodar
 
 ```powershell
-python publicar.py --ensaio                          # a próxima da sequência, sem publicar
-python publicar.py --ensaio --slug <slug>            # uma peça específica
-python preparar.py --semana                          # entrega para postar à mão
+python preparar.py --semana                          # as duas da próxima semana → imagens/, docs/agenda.json
+python preparar.py --slug <slug> --data 2026-09-19   # refaz uma peça numa data
+python preparar.py --refazer                         # re-renderiza o que já está agendado
 python -m unittest discover -s testes
 ```

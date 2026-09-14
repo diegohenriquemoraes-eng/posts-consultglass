@@ -4,19 +4,19 @@ Regra: só entra tema com **fonte do próprio Maurício** (podcast, palestra, Re
 lei/norma **conferida na fonte** (cérebro: `25 Consult Glass/Base legal e normativa conferida.md`).
 ✅ = escrita em `carrosseis.json` · ⏳ = na fila · ⚠ = depende de conferir algo antes.
 
-## Escritas (4,5 semanas, a partir de 17/09/2026)
+## Escritas (4,5 semanas, a partir de 15/09/2026 — terça e sexta, 7h)
 
-| # | Slug | Tema | CTA |
+| # | Slug | Tema | CTA (produto) |
 |---|---|---|---|
-| 1 | ✅ guarda-corpo-ultimo-item-antes-da-queda | "Guarda-corpo é o último item antes da queda" · NBR 14718 · caso da vitrine temperada | salvar |
-| 2 | ✅ temperado-ou-laminado-onde-cada-um-pode | temperado × laminado × laminado temperado · NBR 7199 + emenda 2025 | enviar |
-| 3 | ✅ a-lei-diz-se-pode-a-norma-diz-como | CDC art. 39, VIII · norma é o mínimo · catálogo e boas práticas | pergunta |
-| 4 | ✅ o-que-nao-esta-documentado-nao-existe | o kit de documentos da blindagem · quem prova é a parte acionada | salvar |
-| 5 | ✅ cdc-veio-para-o-responsavel-tecnico | fornecedor (art. 3º) · objetiva × subjetiva × solidária · o vão oco | enviar |
-| 6 | ✅ vicio-oculto-a-garantia-comeca-no-problema | vício aparente × oculto · CDC 26 · CC 618 · caso do vidro de controle solar | pergunta |
-| 7 | ✅ a-falha-comeca-antes-da-esquadria | contramarco, vão, compatibilização · o prédio de 14 andares · dever de recusar o vão | salvar |
-| 8 | ✅ guarnicao-o-detalhe-que-decide-a-fachada | EPDM · componente × acessório · vulcanização dos cantos (manual do sistemista) | enviar |
-| 9 | ✅ termo-assinado-pelo-cliente-nao-vale | não existe transferência de responsabilidade · termo de ciência · baixar a ART | pergunta |
+| 1 | ✅ guarda-corpo-ultimo-item-antes-da-queda | "Guarda-corpo é o último item antes da queda" · NBR 14718 · caso da vitrine temperada | Perícia |
+| 2 | ✅ temperado-ou-laminado-onde-cada-um-pode | temperado × laminado × laminado temperado · NBR 7199 + emenda 2025 | Seguir |
+| 3 | ✅ a-lei-diz-se-pode-a-norma-diz-como | CDC art. 39, VIII · norma é o mínimo · catálogo e boas práticas | Venda Blindada |
+| 4 | ✅ o-que-nao-esta-documentado-nao-existe | o kit de documentos da blindagem · quem prova é a parte acionada | Método Blindar |
+| 5 | ✅ cdc-veio-para-o-responsavel-tecnico | fornecedor (art. 3º) · objetiva × subjetiva × solidária · o vão oco | Seguir |
+| 6 | ✅ vicio-oculto-a-garantia-comeca-no-problema | vício aparente × oculto · CDC 26 · CC 618 · caso do vidro de controle solar | Venda Blindada |
+| 7 | ✅ a-falha-comeca-antes-da-esquadria | contramarco, vão, compatibilização · o prédio de 14 andares · dever de recusar o vão | Perícia |
+| 8 | ✅ guarnicao-o-detalhe-que-decide-a-fachada | EPDM · componente × acessório · vulcanização dos cantos (manual do sistemista) | Método Blindar |
+| 9 | ✅ termo-assinado-pelo-cliente-nao-vale | não existe transferência de responsabilidade · termo de ciência · baixar a ART | Seguir |
 
 ## Fila (com fonte)
 
