@@ -42,7 +42,10 @@ porque o carrossel leva a **música fixa da conta** (a Graph API não põe músi
    **Postado** (fica no aparelho, em `localStorage`).
 3. O app lê `docs/agenda.json` e os JPGs direto de `raw.githubusercontent.com` (repo público) —
    por isso não precisa republicar o app quando entra peça nova; a Vercel só muda quando `app/`
-   muda (`cd app && XDG_DATA_HOME="$APPDATA/xdg.data" npx vercel@latest --prod --yes`).
+   muda (`XDG_DATA_HOME="$APPDATA/xdg.data" npx vercel@latest --prod --yes` na RAIZ do repo — o
+   `vercel.json` da raiz aponta `outputDirectory: app`; a Vercel também faz deploy sozinha a cada push
+   pela integração com o GitHub, e é por isso que o config tem de estar na raiz: em 14/09 o deploy
+   automático da raiz sem `outputDirectory` deu 404 no link que o Diego abriu).
 
 O caminho por API ficou documentado no cérebro caso um dia volte: a conta é profissional, o
 app Meta "Palavra Viva Reels" tem @peritomauricioboschetti como Testador do Instagram

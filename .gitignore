@@ -1,2 +1,6 @@
 saida/
 __pycache__/
+.vercel/
+
+.vercel
+.env*
