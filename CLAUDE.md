@@ -33,7 +33,9 @@ Não publica por API. O Diego escolheu postar do celular, igual ao Canteiro do @
 porque o carrossel leva a **música fixa da conta** (a Graph API não põe música):
 
 1. **Domingo 18h17 BRT** o workflow `preparar.yml` roda `preparar.py --semana`: renderiza as
-   duas peças (terça e sexta), commita `imagens/<data>/` e `docs/agenda.json`. A cada push em
+   duas peças (terça e sexta), commita `imagens/<data>/` e `docs/agenda.json`. Em 14/09 o Diego pediu
+   "várias semanas": `--todas` agendou as 24 peças escritas (15/09 a 04/12/2026); enquanto a agenda
+   tiver ≥ 2 datas futuras, o domingo não faz nada — quando faltar peça escrita, abre issue. A cada push em
    `carrosseis.json`/gerador/fotos ele só **re-renderiza o que já está agendado** (`--refazer`),
    sem avançar a sequência. `workflow_dispatch` aceita `slug` + `data` para refazer uma peça.
 2. **Terça e sexta às 7h** o Diego abre o app (`canteiro-cg.vercel.app`, ícone na tela de início),

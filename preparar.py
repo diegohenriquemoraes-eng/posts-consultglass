@@ -13,6 +13,7 @@ roda no GitHub Actions (`preparar.yml`, domingo 18h BRT e a cada push em `carros
 Uso:
     python preparar.py --semana            # as duas da próxima semana (terça e sexta)
     python preparar.py --semana --data 2026-09-22
+    python preparar.py --todas             # agenda tudo o que está escrito (Diego, 14/09: "várias semanas")
     python preparar.py --slug X --data 2026-09-19   # refaz uma peça sem mexer na sequência
     python preparar.py --refazer           # re-renderiza o que já está agendado (roda a cada push)
     python preparar.py --so-agenda         # só reescreve docs/agenda.json a partir de preparados.json
@@ -119,6 +120,7 @@ def escrever_agenda(preparados: list, banco: dict) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--semana", action="store_true", help="prepara as duas peças da próxima semana")
+    ap.add_argument("--todas", action="store_true", help="agenda TODAS as peças escritas ainda não preparadas, terça e sexta em sequência")
     ap.add_argument("--slug", help="prepara uma peça específica (não avança a sequência)")
     ap.add_argument("--data", help="AAAA-MM-DD da primeira publicação")
     ap.add_argument("--so-agenda", action="store_true")
@@ -160,9 +162,14 @@ def main() -> None:
     feitos = {p["slug"] for p in preparados}
     ocupadas = {p["data"] for p in preparados}
     fila = [s for s in banco["sequencia"] if s not in feitos]
+    futuras = [p for p in preparados if p["data"] >= hoje.isoformat()]
     if not fila:
+        if len(futuras) >= 2:
+            print(f"fila de peças escritas acabou, mas há {len(futuras)} já agendadas até {futuras[-1]['data']} — nada a fazer")
+            escrever_agenda(preparados, banco)
+            return
         raise SystemExit("Sequência esgotada: escreva peças novas em carrosseis.json (ver PAUTA-CARROSSEIS.md).")
-    quantos = 2 if args.semana else 1
+    quantos = len(fila) if args.todas else (2 if args.semana else 1)
     # pula datas que já têm peça (idempotente: rodar duas vezes no domingo não duplica)
     datas = [d for d in proximas_datas(inicio, quantos + len(ocupadas)) if d.isoformat() not in ocupadas][:quantos]
     for slug, data in zip(fila[:quantos], datas):

@@ -19,7 +19,22 @@
     "vicio-oculto-a-garantia-comeca-no-problema",
     "a-falha-comeca-antes-da-esquadria",
     "guarnicao-o-detalhe-que-decide-a-fachada",
-    "termo-assinado-pelo-cliente-nao-vale"
+    "termo-assinado-pelo-cliente-nao-vale",
+    "ensaio-e-por-produto-e-por-empresa",
+    "sindico-laudo-de-entrada-de-gestao",
+    "tres-propostas-tres-escopos",
+    "impericia-imprudencia-negligencia",
+    "manual-e-termo-de-garantia",
+    "nem-sempre-a-esquadria-e-a-vila",
+    "o-vao-e-projetado-para-a-esquadria",
+    "a-faculdade-nao-ensina-esquadria",
+    "todo-litigio-comeca-cedendo-preco",
+    "laudo-parecer-e-laudo-cautelar",
+    "recall-quem-responde-primeiro",
+    "profissional-blindado",
+    "art-nao-e-carimbo",
+    "perito-assistente-extrajudicial",
+    "esquadria-e-argumento-de-venda-do-imovel"
   ],
   "pecas": {
     "guarda-corpo-ultimo-item-antes-da-queda": {
@@ -609,6 +624,912 @@
         }
       ],
       "legenda": "\"Assina aqui que você está querendo temperado.\"\n\nOuço isso desde que comecei a trabalhar com norma — e ainda ouço. O cliente assina um termo assumindo a responsabilidade pelo guarda-corpo mais baixo, pelo vidro errado, pela roldana de 200 kg numa porta de 300. E a empresa acredita que está protegida.\n\nNão existe transferência de responsabilidade técnica. O cliente é a parte leiga; quem tem a obrigação legal e técnica de saber é o profissional. Pior: o termo atesta, por escrito, que você sabia que aquele produto não podia ser executado e o ofereceu mesmo assim. Num processo, isso prova intenção — e intenção é o que transforma um processo civil em criminal.\n\nA base é o art. 39, inciso VIII, do Código de Defesa do Consumidor: é vedado colocar no mercado produto ou serviço em desacordo com as normas. A empresa de esquadria, que responde de forma objetiva, tem uma única saída: \"não posso executar nesse formato, porque não é normativo\". Não há meio-termo.\n\nPara o engenheiro e o arquiteto existe um instrumento diferente: o termo de ciência. Ele orienta o cliente, cita as normas (7199, 10821, 14718), registra que discorda — e, se o cliente insistir, baixa a ART e deixa a obra. Isso não é blindagem; é resguardo técnico. Pesa na interpretação do juiz porque mostra que não houve ganho nem omissão. Mas não tira ninguém do processo.\n\nE lembre: a culpa do profissional liberal é subjetiva — precisa ser provada. \"Avisei que não era normativo e a construtora mandou executar\" só existe se estiver escrito, com recebimento confirmado.\n\nQuem trabalha assim não se protege apenas juridicamente. Constrói credibilidade técnica de longo prazo.\n\nVocê já assinou — ou fez alguém assinar — um termo desses? Me conta o que aconteceu depois.\n\nAntes de assinar — ou de fazer alguém assinar — entenda o que está assinando. É disso que este perfil trata. Siga @peritomauricioboschetti.\n\n#responsabilidadetecnica #cdc #normatecnica #engenhariacivil #arquitetura #esquadrias #guardacorpo #construcaocivil #periciajudicial #blindagemprofissional"
+    },
+    "ensaio-e-por-produto-e-por-empresa": {
+      "titulo": "Ensaio é por produto e por empresa",
+      "fonte": "Reel 18/09/2025 (Saie Vetro): 'o sistemista ensaiou o produto dele; a sua empresa e a sua mão de obra não foram ensaiadas'; Reel 10/10/2025 (Glass South America): 'instalar sem ensaio é testar com a vida do cliente'; Vidro na Obra #69 (laudo de laboratório quando a norma exige).",
+      "cta": {
+        "tipo": "venda-blindada"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "palestra-microfone.jpg",
+          "etiqueta": "Ensaio",
+          "gancho": "O sistemista ensaiou. A sua empresa não."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "\"O fornecedor já ensaiou esse produto.\"",
+          "texto": "Ensaiou o produto dele. A sua empresa e a sua mão de obra não estão dentro daquele laudo."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que o ensaio do sistemista cobre — e o que não",
+          "itens": [
+            [
+              "Cobre",
+              "O sistema, montado como o catálogo manda, no laboratório."
+            ],
+            [
+              "Não cobre",
+              "A sua fabricação, a sua instalação, o seu vão."
+            ],
+            [
+              "Por isso",
+              "Guarda-corpo e esquadria: ensaio da SUA empresa, por produto."
+            ]
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Guarda-corpo instalado sem ensaio.",
+          "texto": "O que está sendo testado não é o material. É a vida do seu cliente."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "O que ele ensina na palestra",
+          "titulo": "Leve o seu melhor instalador para assistir ao ensaio.",
+          "texto": "Ele vê onde rompe, como rompe e com que carga. O que ele achava mais seguro costuma ser o primeiro ponto de falha."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "\"Se a norma exige ensaio, cadê o laudo do ensaio?\"",
+          "texto": "É um dos primeiros documentos que o perito pede. Sem ele, a defesa não tem base."
+        },
+        {
+          "tipo": "cta",
+          "produto": "venda-blindada",
+          "titulo": "Você fabrica e instala? O contrato precisa dizer quem ensaia."
+        }
+      ],
+      "legenda": "\"O fornecedor já ensaiou esse produto.\" Ouço isso em toda palestra — e é aí que o problema começa.\n\nO sistemista ensaiou o produto dele, montado como o catálogo manda, no laboratório. A sua empresa, a sua fabricação e a sua mão de obra não estão dentro daquele laudo. O ensaio do fornecedor não tira a necessidade de a sua empresa ensaiar — guarda-corpo e esquadria, por produto.\n\nE ensaio não é só protocolo. É aprendizado. Leve o seu melhor instalador para acompanhar: ele vai ver o limite de capacidade do sistema, onde rompe, como rompe e qual o impacto da execução na segurança. O que ele fazia achando que era o mais seguro costuma ser o primeiro ponto de falha. Isso gera consciência técnica dentro da empresa.\n\nQuando um guarda-corpo é instalado sem ensaio, o que está sendo testado não é o material. É a vida do seu cliente. Ensaios de desempenho não são diferencial: são exigência mínima, e em muitas situações precisam ser independentes para comprovar a conformidade.\n\nNa perícia, se a norma exige ensaio, a pergunta vem cedo: cadê o laudo? Sem ele, não há defesa técnica.\n\nA sua empresa tem laudo de ensaio dos produtos que instala — ou só o do fornecedor?\n\nSe você fabrica e instala esquadrias, o Venda Blindada é o contrato técnico que define escopo, medição, prazos, recebimento e responsabilidades antes da obra. mauricio.consultglass.net.br/venda-blindada-esquadrias.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #ensaio #guardacorpo #desempenho"
+    },
+    "sindico-laudo-de-entrada-de-gestao": {
+      "titulo": "Síndico: assumiu o prédio, assumiu a responsabilidade",
+      "fonte": "Aluparts EP20 (abr/2026): laudo de entrada de gestão, responsabilidade civil e criminal do síndico, NBR 5674 / 16280 / 17170; legenda de 14/04/2026 ('laudos técnicos de entrada de gestão são fundamentais').",
+      "cta": {
+        "tipo": "pericia"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "podcast-branco.jpg",
+          "etiqueta": "Gestão predial",
+          "gancho": "Síndico responde pelo que faz. E não faz."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Você assumiu o condomínio. Sabe em que estado ele estava?",
+          "texto": "Sem laudo de entrada, o síndico novo herda problemas que não são dele — e responde por eles."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O laudo de entrada de gestão mapeia",
+          "itens": [
+            [
+              "Esquadrias e fachada",
+              "Vedação, fixação, vidros, guarda-corpos."
+            ],
+            [
+              "Impermeabilização",
+              "A campeã das ações judiciais na construção."
+            ],
+            [
+              "Estrutura, elevadores, pastilha",
+              "O que cai e machuca alguém."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "As normas do condomínio",
+          "titulo": "Manutenção, reforma e garantia têm norma",
+          "texto": "NBR 5674 (gestão da manutenção), NBR 16280 (reformas em edificações) e NBR 17170 (garantias). Reforma na unidade passa por crivo técnico, com ART ou RRT.",
+          "fonte": "ABNT NBR 5674 · NBR 16280 · NBR 17170"
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Manutenção feita e não registrada.",
+          "texto": "Perante a lei, não foi feita. A garantia de fachada só vale com inspeção registrada dentro do prazo."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Piso sobre piso, parede estrutural removida.",
+          "texto": "Obra entregue há 30 dias e caçambas de alvenaria estrutural saindo das unidades. Quem libera a reforma responde junto."
+        },
+        {
+          "tipo": "cta",
+          "produto": "pericia",
+          "titulo": "Assumiu um prédio com problema? Comece pelo documento."
+        }
+      ],
+      "legenda": "Síndico responde civil e criminalmente por tudo que faz — e principalmente pelo que não faz.\n\nQuem assume um condomínio sem conhecer a real condição da edificação herda riscos que não aparecem de imediato, mas cobram o preço depois. Por isso a primeira providência de uma gestão nova é o laudo de entrada: esquadrias, fachada, impermeabilização, elementos estruturais, elevadores, revestimento. Tudo avaliado antes de assumir responsabilidades legais — para o síndico não responder por problemas que não nasceram na administração dele.\n\nE o condomínio também segue norma: a NBR 5674 (gestão da manutenção), a NBR 16280 (reformas em edificações) e a NBR 17170 (garantias). Reforma dentro da unidade passa por crivo técnico, com projeto e ART ou RRT — piso sobre piso acumula carga que a estrutura não previu, e parede estrutural removida compromete o prédio inteiro. Já vi obra entregue há 30 dias com caçambas de alvenaria estrutural saindo das unidades.\n\nOutro ponto que poucos gestores sabem: a garantia de cinco anos só se sustenta se as inspeções previstas no manual foram feitas e registradas. Manutenção feita sem registro, perante a lei, não foi feita.\n\nGestão predial é multidisciplinar. O síndico não precisa ser engenheiro — precisa trazer um.\n\nO seu condomínio tem laudo de entrada da gestão atual?\n\nQuando o dano já existe — infiltração, falha de fachada, guarda-corpo, vidro — a perícia técnica documenta a causa e sustenta a sua posição, judicial ou extrajudicial. mauricio.consultglass.net.br/pericia-tecnica.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #sindico #gestaopredial #laudotecnico"
+    },
+    "tres-propostas-tres-escopos": {
+      "titulo": "Três propostas, três escopos",
+      "fonte": "Premium Cast jul/2025 (equalização; 'carro na FIPE pela metade'; roldana de 7 e de 150; 'a construtora põe o cara de 100 funcionários brigando com o de 3'); LP do Método Blindar ('três propostas com preços diferentes quase nunca têm o mesmo escopo').",
+      "cta": {
+        "tipo": "metodo-blindar"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "congresso-mentor.jpg",
+          "etiqueta": "Compra",
+          "gancho": "Três propostas. Três preços. Três escopos."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Quarenta mil numa proposta. Cento e cinquenta na outra.",
+          "texto": "Antes de concluir que alguém está cobrando demais, pergunte o que saiu do escopo."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "A analogia dele",
+          "titulo": "Um carro de 100 mil na FIPE oferecido por 50.",
+          "texto": "Você desconfia. Na esquadria, a construtora comemora o desconto."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Onde o preço some",
+          "itens": [
+            [
+              "Componente",
+              "Roldana de 7 reais no lugar da de 150 — o mesmo catálogo, outro produto."
+            ],
+            [
+              "Vidro",
+              "Espessura, laminado, controle solar."
+            ],
+            [
+              "Documentação",
+              "Sem laudo, sem manual, sem garantia escrita."
+            ]
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Comprar sabendo que o produto fere a norma.",
+          "texto": "Se foi para lucrar, a intenção está provada. É o que transforma processo civil em criminal."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Equalizar é pôr todas na mesma régua.",
+          "texto": "Sistema, vidro, componentes, ensaio, garantia, documentação — item a item. Só depois o total."
+        },
+        {
+          "tipo": "cta",
+          "produto": "metodo-blindar",
+          "titulo": "Construtora: compare na mesma régua antes de assinar."
+        }
+      ],
+      "legenda": "Três propostas para a mesma obra: 40 mil numa, 150 mil noutra. Quase nunca é a mesma esquadria.\n\nO nosso mercado ainda compra por leilão: a construtora põe a empresa de cem funcionários brigando com a de três e uma Saveiro, no mesmo nível, e leva o menor número. Eu uso uma analogia simples: um carro que vale 100 mil na FIPE oferecido por 50 faz qualquer um desconfiar. Na esquadria, o desconto de 50% é comemorado.\n\nO preço some em lugares que a planilha não enxerga. Componente: roldana de 7 reais no lugar da de 150 — o mesmo catálogo, outro produto, outra vida útil. Vidro: espessura, laminado ou comum, com ou sem controle solar. Documentação: laudo de ensaio, manual, garantia escrita. Cada item que sai do escopo baixa o preço e sobe o risco.\n\nEqualizar é colocar todas as propostas na mesma régua, item a item — sistema, vidro, componentes, ensaio, garantia, documentação — e só então olhar o total. Poucas construtoras fazem isso. É o correto.\n\nE há o outro lado: comprar sabendo que o produto fere a norma, para lucrar mais, prova intenção. É a linha que transforma um processo civil em criminal.\n\nNa sua última compra de esquadria, alguém comparou as propostas na mesma régua?\n\nPara construtora e incorporadora, o Método Blindar instala esse critério do projeto ao recebimento: cinco encontros com a sua equipe e doze ferramentas aplicadas na sua obra. mauricio.consultglass.net.br/metodo-blindar.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #construtora #equalizacao #orcamento"
+    },
+    "impericia-imprudencia-negligencia": {
+      "titulo": "Imperícia, imprudência e negligência",
+      "fonte": "Vidro na Obra #69 (jun/2025) e Aluparts EP20 (abr/2026): os três braços da culpa; 'eu não sabia, mas era obrigado a saber'; CDC art. 14 §4º (profissional liberal responde mediante culpa) e CC art. 186 — conferidos.",
+      "cta": {
+        "tipo": "seguir"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "podcast-pb.jpg",
+          "etiqueta": "Responsabilidade",
+          "gancho": "\"Eu não sabia\" tem nome: imperícia."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O engenheiro e o arquiteto respondem mediante culpa.",
+          "texto": "Precisa ser provada. E ela se prova de três formas."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Os três braços da culpa",
+          "itens": [
+            [
+              "Imperícia",
+              "Não sabia o que estava especificando. Era obrigado a saber."
+            ],
+            [
+              "Negligência",
+              "Fez o projeto e não acompanhou. Ignorou o aviso."
+            ],
+            [
+              "Imprudência",
+              "Sabia que estava errado e fez mesmo assim."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "Código Civil, art. 186",
+          "texto": "Aquele que, por ação ou omissão voluntária, negligência ou imprudência, violar direito e causar dano a outrem comete ato ilícito.",
+          "fonte": "Lei 10.406/2002, art. 186 · CDC art. 14, §4º"
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Imprudência é a que vira criminal.",
+          "texto": "Trocar o produto especificado por um pior, para ganhar mais, é intenção. E intenção muda a esfera."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Domo especificado em laminado. Instalaram vidro comum de 4 mm.",
+          "texto": "Numa cobertura. Não é imperícia: é substituição consciente de produto."
+        },
+        {
+          "tipo": "cta",
+          "produto": "seguir",
+          "titulo": "Responsabilidade técnica, explicada por quem periciou."
+        }
+      ],
+      "legenda": "\"Eu não sabia.\" Na perícia, essa frase tem nome: imperícia.\n\nO profissional liberal — engenheiro, arquiteto — responde mediante verificação de culpa (CDC, art. 14, §4º). Diferente da empresa de esquadria e do instalador, que respondem de forma objetiva, a culpa do responsável técnico precisa ser provada. E ela se prova por três caminhos, os três braços do art. 186 do Código Civil.\n\nImperícia: o profissional não tinha o conhecimento real sobre o que especificou. Não vale dizer que não sabia — ele era obrigado a saber. É a mais comum em esquadria, porque a faculdade não ensina esquadria.\n\nNegligência: fez o projeto e não acompanhou, ignorou o aviso, nunca foi à obra. Não teve intenção, mas também não sai do processo.\n\nImprudência: sabia que estava errado e fez mesmo assim. É a mais grave, porque carrega intenção — e intenção é o que tira um caso da esfera civil e leva à criminal. Um domo especificado em vidro laminado de segurança, entregue em vidro comum de 4 mm, não é imperícia. É substituição consciente de produto.\n\nQuem decide tecnicamente, responde tecnicamente. Saber de qual dos três braços você está mais perto é o começo da blindagem.\n\nQual dos três você já viu acontecer numa obra?\n\nSiga @peritomauricioboschetti.\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #codigocivil #cdc #engenharialegal"
+    },
+    "manual-e-termo-de-garantia": {
+      "titulo": "Manual do usuário e termo de garantia",
+      "fonte": "Premium Cast jul/2025 ('sem termo, vale o que a lei diz'; 'o mercado trata o mínimo como luxo'); Aluparts EP20 (manual = regra do jogo; colher assinatura; carro e roldana); NBR 17170 (garantias); CDC art. 26 — conferido.",
+      "cta": {
+        "tipo": "venda-blindada"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "fesqua-corredor.jpg",
+          "etiqueta": "Entrega",
+          "gancho": "Entregou sem manual? Assumiu a manutenção."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "\"Cadê o manual do usuário?\" É a pergunta que trava a defesa.",
+          "texto": "Na maioria das obras que perício, ninguém nunca viu. E a norma exige entregar."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que o manual faz por você",
+          "itens": [
+            [
+              "Define a manutenção",
+              "Periodicidade, produto de limpeza, o que não pode."
+            ],
+            [
+              "Prova a orientação",
+              "Com a assinatura de recebimento, o cliente foi informado."
+            ],
+            [
+              "Divide a responsabilidade",
+              "Sem manual, a manutenção que não foi feita é problema seu."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Termo de garantia",
+          "titulo": "Sem termo próprio, vale o prazo da lei — sempre maior.",
+          "texto": "E garantia abaixo da norma não é válida: a NBR 17170 fixa os mínimos."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Tratar o mínimo como diferencial.",
+          "texto": "Manual e termo são obrigação. O mercado cobra a mais por isso — e devia ser o piso."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Ninguém deixa o carro dez anos com o mesmo pneu.",
+          "texto": "Mas deixa a esquadria dez anos sem trocar roldana. Sem manual, essa conta é da empresa que entregou."
+        },
+        {
+          "tipo": "cta",
+          "produto": "venda-blindada",
+          "titulo": "Quem fabrica e instala precisa entregar a regra do jogo por escrito."
+        }
+      ],
+      "legenda": "\"Cadê o manual do usuário?\" É uma das primeiras perguntas da perícia — e, na maioria das obras, ninguém nunca viu um.\n\nA norma exige que a esquadria seja entregue com manual de uso, operação e manutenção. É a regra do jogo: como limpar, com o que, de quanto em quanto tempo trocar roldana e vedação, o que o usuário não pode fazer. Sem ele, não existe manutenção preventiva prevista — e a manutenção que não foi feita vira problema de quem entregou.\n\nCom o manual vem o termo de garantia. Quem não faz o próprio termo fica sujeito ao que a lei diz, e o prazo da lei é sempre maior. E não adianta dar garantia menor que a norma: a NBR 17170 fixa os prazos mínimos; dar dois anos onde a norma pede cinco simplesmente não vale.\n\nUm detalhe que decide processo: colha a assinatura de recebimento do manual. Numa disputa, quem prova é a parte acionada. O cliente é leigo; a empresa é quem tem de mostrar que entregou e orientou.\n\nEu uso a comparação do carro: ninguém deixa o carro dez anos com o mesmo pneu, mas deixa a esquadria dez anos sem trocar roldana. O manual é o que separa mau uso de vício.\n\nNo nosso mercado, entregar o manual virou diferencial. Não deveria ser. É o mínimo.\n\nA sua empresa entrega manual e termo de garantia com assinatura?\n\nSe você fabrica e instala esquadrias, o Venda Blindada é o contrato técnico que define escopo, medição, prazos, recebimento e responsabilidades antes da obra. mauricio.consultglass.net.br/venda-blindada-esquadrias.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #manualdousuario #garantia #nbr17170"
+    },
+    "nem-sempre-a-esquadria-e-a-vila": {
+      "titulo": "Nem sempre a esquadria é a vilã",
+      "fonte": "Premium Cast jul/2025 e Reel 04/08/2025: o visor de piscina 'vazando' era o rejunte (produto de garagem aplicado na piscina); Reel 15/10/2025: perícia decidida pelo catálogo (folgas) e ultrassom na parede do alumínio; Reel 23/09/2025 ('o erro pode estar em qualquer lugar, até na perícia').",
+      "cta": {
+        "tipo": "pericia"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "livro-rua.jpg",
+          "etiqueta": "Diagnóstico",
+          "gancho": "O visor vazava. Não era o visor."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "\"Está entrando água pelo visor.\"",
+          "texto": "Cheio de umidade, a culpa parecia óbvia. Na avaliação, o visor estava íntegro."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "A causa",
+          "titulo": "O rejunte da piscina era o produto da garagem.",
+          "texto": "Comprou um rejunte flexível para a piscina e outro para a garagem — e aplicou trocado. Vazava por toda a junta."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Onde o erro pode estar",
+          "itens": [
+            [
+              "No projeto",
+              "Especificação incompleta ou fora da norma."
+            ],
+            [
+              "Na execução",
+              "Fora do catálogo, fora do prumo, sem vedação."
+            ],
+            [
+              "No uso e na manutenção",
+              "Ou em outro sistema, ao lado da esquadria."
+            ]
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Trocar a esquadria sem diagnóstico.",
+          "texto": "Gasta-se o dobro e a infiltração continua — porque a causa nunca foi ela."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Folga fora do catálogo. Parede de alumínio de 0,9 mm onde pedia 1,2.",
+          "texto": "Uma perícia se decide com o catálogo do fabricante e um medidor de ultrassom. Sem nada mirabolante."
+        },
+        {
+          "tipo": "cta",
+          "produto": "pericia",
+          "titulo": "Infiltração sem causa achada? Diagnóstico antes da troca."
+        }
+      ],
+      "legenda": "\"Está entrando água pelo visor da piscina.\" Cheio de umidade, o caso parecia resolvido antes de começar: culpa do vidro.\n\nNa avaliação, o visor estava íntegro. O dono tinha comprado um rejunte flexível específico para a piscina e outro para a garagem — e aplicou trocado. O produto da garagem estava na piscina, e a água passava por toda a junta. Nem sempre a esquadria é a vilã. Tem caso que é o oposto disso.\n\nO erro pode estar em qualquer lugar: no projeto, na especificação, na execução, no material, no uso, na manutenção — e até em outro sistema ao lado, como nesse caso. É por isso que trocar a esquadria sem diagnóstico costuma custar o dobro: gasta-se a troca e a infiltração continua, porque a causa nunca foi ela.\n\nE o diagnóstico raramente exige algo mirabolante. Já decidi perícia só com as folgas do catálogo do fabricante: quem executou não seguiu. Já medi espessura de parede do alumínio com ultrassom: era para ter 1,2 mm e tinha 0,9. A engenharia diagnóstica tem ferramentas de percepção; o que falta, muitas vezes, é alguém que conheça o produto para saber onde olhar.\n\nNão existe falha só dentro da esquadria. Ela está em todo lugar — inclusive na perícia, quando quem avalia não conhece o sistema.\n\nQual foi a infiltração mais difícil de achar a causa na sua obra?\n\nQuando o dano já existe — infiltração, falha de fachada, guarda-corpo, vidro — a perícia técnica documenta a causa e sustenta a sua posição, judicial ou extrajudicial. mauricio.consultglass.net.br/pericia-tecnica.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #infiltracao #diagnostico #patologia"
+    },
+    "o-vao-e-projetado-para-a-esquadria": {
+      "titulo": "O vão é projetado para a esquadria",
+      "fonte": "Premium Cast jul/2025 ('antigamente a esquadria era projetada para o vão; hoje o vão tem de ser projetado para a esquadria'; carga pontual; NBR 6123; vento de Campinas 2020; compatibilização); live Café + Conteúdo abr/2025 (guarda-corpo embutido: rasgar 13 cm da viga).",
+      "cta": {
+        "tipo": "metodo-blindar"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "palco-documentado.jpg",
+          "etiqueta": "Compatibilização",
+          "gancho": "Hoje o vão é projetado para a esquadria."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Antigamente era o contrário.",
+          "texto": "Vão padrão, esquadria feita para caber. Hoje a porta tem 6 metros e a parede não sabe disso."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que a esquadria grande descarrega na estrutura",
+          "itens": [
+            [
+              "Carga pontual",
+              "Peso concentrado em pontos que a viga não previu."
+            ],
+            [
+              "Pressão de vento",
+              "Prevista na NBR 6123 — e ignorada na obra."
+            ],
+            [
+              "Fixação",
+              "Arrancamento e deslocamento quando o substrato não foi preparado."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A norma diz",
+          "titulo": "Vento é carga de projeto",
+          "texto": "A NBR 6123 define as forças devidas ao vento. Rajada pontual que arranca envidraçamento de uma rua inteira não é imprevisto: está na norma.",
+          "fonte": "ABNT NBR 6123 — Forças devidas ao vento em edificações"
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Rasgar 13 cm de viga para embutir o guarda-corpo.",
+          "texto": "Não existe. A viga rompe. Esse perfil tinha de estar previsto na estrutura desde o projeto."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Compatibilizam o encanamento do banheiro. Não compatibilizam a esquadria.",
+          "texto": "Um item que é parte relevante do custo da obra, tratado como acabamento de fim de obra."
+        },
+        {
+          "tipo": "cta",
+          "produto": "metodo-blindar",
+          "titulo": "Construtora: a esquadria entra na compatibilização, não no fim da obra."
+        }
+      ],
+      "legenda": "Antigamente o vão era padrão e a esquadria era projetada para caber nele. Hoje é o contrário: a porta tem seis metros, o pano de vidro tem a altura do pé-direito duplo, e o vão precisa ser projetado para a esquadria.\n\nUma esquadria de grande dimensão descarrega na estrutura o que a parede não previu: carga pontual concentrada, pressão de vento e esforço de fixação. Quando o substrato não foi preparado, o resultado é deslocamento, arrancamento e infiltração — e a culpa cai na esquadria, que chegou por último.\n\nO vento não é imprevisto. A NBR 6123 define as forças devidas ao vento, e o gráfico de aplicação do próprio sistemista já traduz isso por região. Em 2020 uma rajada pontual arrancou envidraçamentos de sacada de uma rua inteira em Campinas. Não é que ventou demais: é que ninguém considerou o que estava na norma.\n\nO extremo que já vi em projeto: rasgar 13 centímetros de uma viga para embutir o perfil de um guarda-corpo autoportante. Não existe — a viga rompe. Esse perfil tinha de estar previsto na estrutura desde o projeto.\n\nCompatibilizam o encanamento do banheiro e não compatibilizam a esquadria, que é parte relevante do custo da obra. Em alto padrão, a esquadria deixa de ser produto vendido no fim da obra e passa a ser decidida na compatibilização.\n\nNa sua obra, a esquadria entrou na compatibilização ou chegou no fim?\n\nPara construtora e incorporadora, o Método Blindar instala esse critério do projeto ao recebimento: cinco encontros com a sua equipe e doze ferramentas aplicadas na sua obra. mauricio.consultglass.net.br/metodo-blindar.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #compatibilizacao #nbr6123 #construtora"
+    },
+    "a-faculdade-nao-ensina-esquadria": {
+      "titulo": "A faculdade não ensina esquadria",
+      "fonte": "Vidro na Obra #69 e Premium Cast jul/2025 (Reel 20/07/2025): 'conhecimento zero'; 'a empresa de esquadria vira a única referência'; 'quanto antes descobre, mais fácil corrigir'; palestras em semanas de engenharia ('o maior impacto é nos professores').",
+      "cta": {
+        "tipo": "seguir"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "palestra-terno.jpg",
+          "etiqueta": "Formação",
+          "gancho": "Concreto, aço, cerâmica, madeira. Esquadria, não."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O engenheiro sai da faculdade sem uma aula sobre esquadria.",
+          "texto": "Viu concreto, aço, cerâmica, madeira. Vidro e esquadria — o produto que mais falha por causa do ser humano — não."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "O problema",
+          "titulo": "Conhecimento zero não é falta de aprofundamento. É não saber que existe.",
+          "texto": "Quem viu cerâmica sabe onde buscar. Quem nunca viu esquadria não sabe que há norma."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que acontece então",
+          "itens": [
+            [
+              "A empresa vira a referência",
+              "O parâmetro dela vira lei para o engenheiro."
+            ],
+            [
+              "Se ela não é idônea",
+              "O erro entra no projeto com carimbo de certo."
+            ],
+            [
+              "Descobre-se na perícia",
+              "No pior momento possível."
+            ]
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Assinar a ART sem conhecer o produto.",
+          "texto": "Corresponsável por tudo que está dentro da obra — inclusive pelo que nunca estudou."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "\"Já vi arquiteto contando no dedo a própria responsabilidade.\"",
+          "texto": "Nas semanas de engenharia, o maior impacto não é nos alunos. É nos professores."
+        },
+        {
+          "tipo": "cta",
+          "produto": "seguir",
+          "titulo": "Vidro e esquadria, com o critério que a faculdade não deu."
+        }
+      ],
+      "legenda": "Dentro da faculdade se ensina concreto, aço, cerâmica, madeira. Vidro e esquadria, não. E é o produto que mais falha por causa do ser humano — na especificação e na execução.\n\nIsso é mais grave do que parece. Ninguém sai da universidade especialista em nada, isso é natural. Mas quem viu cerâmica sabe que existe e sabe onde buscar. Quem nunca viu esquadria tem conhecimento zero: não sabe nem que há uma norma regendo aquele item da obra dele.\n\nO que acontece então? A empresa de esquadria vira a única referência que o engenheiro e o arquiteto têm. Se ela é idônea, ótimo. Se não é, os parâmetros dela viram lei para aquele profissional — e o erro entra no projeto com carimbo de certo. Ele só descobre na última instância, no pior momento possível: na perícia, respondendo por tudo que está dentro da obra que assinou.\n\nDou palestras em semanas de engenharia e arquitetura, e o maior impacto não é nos alunos. É nos professores. Já vi arquiteto contando no dedo a responsabilidade técnica que carregava sem saber.\n\nQuanto antes você descobre o problema, mais fácil é corrigir. Esse perfil existe para isso.\n\nVocê aprendeu esquadria na faculdade ou na obra?\n\nSiga @peritomauricioboschetti.\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #engenharia #formacao #especificacao"
+    },
+    "todo-litigio-comeca-cedendo-preco": {
+      "titulo": "Todo litígio começa cedendo preço",
+      "fonte": "Vidro na Obra #69 e Reel 28/07/2025 ('todo litígio inicia num problema financeiro'; cultura de licitação; a cadeia espremida; calha × ACM); Reel 02/08/2025 (guerra de preços; NBR 15575).",
+      "cta": {
+        "tipo": "venda-blindada"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "fesqua-corredor.jpg",
+          "etiqueta": "Preço",
+          "gancho": "Todo litígio começa num problema financeiro."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O empresário sabe fazer certo. E cede.",
+          "texto": "Precisa vender, precisa de caixa, aceita um preço que torna a obra inviável. Ali começa o processo."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que acontece no meio da obra",
+          "itens": [
+            [
+              "Descapitalizado",
+              "Não chega ao fim com o que prometeu."
+            ],
+            [
+              "Troca por pior",
+              "Peça de segunda, componente fora do catálogo."
+            ],
+            [
+              "Acelera",
+              "Perde o critério técnico que tinha, porque está sufocado."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "A cadeia inteira",
+          "titulo": "A construtora espreme a esquadria. A esquadria espreme o alumínio, o vidro, o componente.",
+          "texto": "Nosso país compra por licitação: o menor preço, tipo leilão, desprezando o critério técnico."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Calha trocada por ACM na pele de vidro.",
+          "texto": "Por uma diferença irrisória. O ACM trinca, a infiltração começa em cima e ninguém acha. Vira bola de neve até o processo."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Fornecedor de alumínio sem laudo, R$ 1,40 mais barato o quilo.",
+          "texto": "Quando der problema, não tem defesa. Sem laudo não existe respaldo."
+        },
+        {
+          "tipo": "cta",
+          "produto": "venda-blindada",
+          "titulo": "Quem fabrica e instala precisa de contrato que não deixe o preço decidir."
+        }
+      ],
+      "legenda": "Todo litígio começa num problema financeiro. É o que vejo em perícia: a pessoa cede preço.\n\nA construtora está no direito dela de comprar bem, e ela espreme. Nosso país vem da cultura de licitação — o menor preço possível, tipo leilão, desprezando o critério técnico. E o empresário de esquadria, que muitas vezes é capacitado e sabe fazer certo, se vê numa situação em que precisa vender, precisa de caixa, e aceita um valor que torna aquela obra inviável.\n\nAli começa o processo. Ele chega ao meio da obra descapitalizado. Começa a optar por produto de menor qualidade, peça de segunda, componente fora do catálogo. Acelera a produção porque precisa partir para a próxima obra. Perde o critério técnico que sempre teve — porque está sufocado. E a pressão desce a cadeia inteira: a esquadria espreme o fornecedor de alumínio, o vidro, o componente.\n\nO caso clássico: pele de vidro em que a calha foi trocada por ACM por uma diferença irrisória. O ACM trinca, a infiltração começa na parte superior da fachada e ninguém identifica de onde vem. Vira bola de neve até o cliente cansar e iniciar o processo.\n\nOu o alumínio sem laudo, R$ 1,40 mais barato o quilo. Na hora do problema, não tem defesa.\n\nA NBR 15575 começou a fazer a construtora olhar a qualidade do fornecedor. Mas quem protege a empresa de esquadria do próprio preço é o contrato.\n\nQual foi a última vez que você cedeu preço e se arrependeu no meio da obra?\n\nSe você fabrica e instala esquadrias, o Venda Blindada é o contrato técnico que define escopo, medição, prazos, recebimento e responsabilidades antes da obra. mauricio.consultglass.net.br/venda-blindada-esquadrias.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #precificacao #gestao #nbr15575"
+    },
+    "laudo-parecer-e-laudo-cautelar": {
+      "titulo": "Laudo, parecer e laudo cautelar",
+      "fonte": "Aluparts EP20 (abr/2026): laudo neutro × parecer opinativo com ART; live Café + Conteúdo abr/2025 (laudo cautelar na entrega); Lei 5.194/66 art. 7º e art. 14 — conferidos.",
+      "cta": {
+        "tipo": "pericia"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "podcast-pb.jpg",
+          "etiqueta": "Documentos",
+          "gancho": "Laudo não é parecer. E nenhum é opinião."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Três documentos, três funções",
+          "itens": [
+            [
+              "Laudo",
+              "Neutro: vistoria, fotos, medições, documentos, ensaios. O fato."
+            ],
+            [
+              "Parecer técnico",
+              "Opinativo: a leitura do especialista sobre o fato. Exige ART."
+            ],
+            [
+              "Laudo cautelar",
+              "Na entrega: registra o estado do que foi entregue. Sua defesa futura."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "Laudo e parecer são atividade de engenharia",
+          "texto": "Vistorias, perícias, pareceres e laudos são atribuição do engenheiro e do arquiteto, com título e registro obrigatórios no documento.",
+          "fonte": "Lei 5.194/1966, arts. 7º e 14"
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "\"Parecer\" sem ART.",
+          "texto": "É só opinião. Não tem valor jurídico. O que vale é o documento de profissional habilitado."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Como o laudo tem de ser",
+          "titulo": "Curto, direto à conclusão, em linguagem que o juiz entenda.",
+          "texto": "Laudo inchado e cheio de termo técnico atrapalha a decisão e abre margem para interpretação."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Quem retira o produto com defeito tem de guardá-lo.",
+          "texto": "Sem a peça, o perito chega um ano depois e não tem o que ver. O laudo fica inconclusivo."
+        },
+        {
+          "tipo": "cta",
+          "produto": "pericia",
+          "titulo": "Tem um problema técnico na mão? Comece pelo documento certo."
+        }
+      ],
+      "legenda": "Laudo, parecer e laudo cautelar não são a mesma coisa — e nenhum deles é opinião.\n\nO laudo é neutro. Traz a vistoria, o registro fotográfico, as medições, a análise documental, os ensaios de laboratório quando a norma pede. É o fato, contextualizado. O parecer técnico é opinativo: a leitura do especialista sobre aquele fato. Para valer, precisa de profissional habilitado e de ART — sem isso é só opinião, sem valor jurídico. E o laudo cautelar é o que a empresa faz na entrega: registra o estado do que foi entregue, com fotos e assinatura, para se resguardar se algo vier a acontecer depois.\n\nVistorias, perícias, pareceres e laudos são atribuição de engenheiro e arquiteto pela Lei 5.194, que também exige título e número de registro no documento.\n\nDuas regras que aprendi na prática. Primeira: o laudo tem de ser curto, objetivo e direto à conclusão, em linguagem que uma pessoa leiga compreenda. Laudo inchado, cheio de termo técnico, atrapalha o juiz e abre margem para interpretação. Segunda: quem faz o laudo inicial precisa mandar guardar o produto retirado. Se a peça foi jogada fora, o perito chega um ano depois, não tem o que ver, e o laudo fica inconclusivo.\n\nO que não está documentado não existe legalmente. O documento certo, na hora certa, é a diferença entre discussão e prova.\n\nNa sua última entrega, houve laudo cautelar assinado pelo cliente?\n\nQuando o dano já existe — infiltração, falha de fachada, guarda-corpo, vidro — a perícia técnica documenta a causa e sustenta a sua posição, judicial ou extrajudicial. mauricio.consultglass.net.br/pericia-tecnica.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #laudotecnico #parecer #engenharialegal"
+    },
+    "recall-quem-responde-primeiro": {
+      "titulo": "Falha de sistema: quem responde primeiro",
+      "fonte": "Reel 30/10/2025 ('se é falha de sistema, o sistemista faz recall; mas a primeira processada é a construtora, que depois regressa'); Aluparts EP20 (construtora nunca deixa de ter responsabilidade; regresso contra fornecedor e instalador); CDC art. 18 — conferido.",
+      "cta": {
+        "tipo": "metodo-blindar"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "congresso-mentor.jpg",
+          "etiqueta": "Responsabilidade",
+          "gancho": "Foi o sistemista que errou. Quem paga primeiro?"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O defeito é de projeto do sistema. Recall.",
+          "texto": "Mas onde o erro aparece? No cliente. E contra quem o cliente entra? Contra a construtora."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "A ordem real de quem responde",
+          "itens": [
+            [
+              "Primeiro",
+              "A construtora, que entregou a obra e assinou a ART de execução."
+            ],
+            [
+              "Depois",
+              "Ela regressa contra a empresa de esquadria ou o sistemista."
+            ],
+            [
+              "Entre eles",
+              "Discute-se de quem foi o erro. O cliente já recebeu."
+            ]
+          ]
+        },
+        {
+          "tipo": "norma",
+          "rotulo": "A lei diz",
+          "titulo": "Solidariedade (CDC, art. 18)",
+          "texto": "Os fornecedores respondem solidariamente pelos vícios. O cliente escolhe contra quem entra — ou entra contra todos.",
+          "fonte": "Lei 8.078/1990, art. 18"
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "\"A responsabilidade é do instalador.\"",
+          "texto": "Para o cliente, não é. A construtora nunca deixa de ter responsabilidade técnica pelo que entregou."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Recebimento sem conferência: 400 guarda-corpos descaracterizados.",
+          "texto": "Produto com ensaio aprovado, mudado na execução. 300 unidades bloqueadas, R$ 230 mil de manutenção."
+        },
+        {
+          "tipo": "cta",
+          "produto": "metodo-blindar",
+          "titulo": "Construtora: o critério de recebimento é a sua defesa."
+        }
+      ],
+      "legenda": "\"Foi falha do sistema. O sistemista tem de fazer recall.\" Verdade — e mesmo assim quem paga primeiro é a construtora.\n\nDepende de onde está o defeito. Se é falha de projeto do sistema, o sistemista é obrigado ao recall. Se é falha de instalação, a responsabilidade objetiva é da empresa de esquadria. Mas onde o erro aparece? No cliente. E contra quem o cliente entra? Contra a construtora, que entregou a obra e assinou a ART de execução. Em obra de grande porte, a construtora é quase sempre a primeira processada; só depois ela regressa contra o fornecedor, o sistemista ou o instalador.\n\nA base é o art. 18 do Código de Defesa do Consumidor: os fornecedores respondem solidariamente pelos vícios. O cliente é a parte fraca; ele escolhe contra quem entra — ou entra contra todos ao mesmo tempo. De quem foi o erro se discute depois, entre as partes.\n\nPor isso \"a responsabilidade é do instalador\" não protege a construtora. Ela nunca deixa de ter responsabilidade técnica por cada item inserido na obra dela. O que a protege é o critério de recebimento: comparar o executado com o aprovado antes de liberar o pagamento.\n\nO caso que resume tudo: 400 guarda-corpos com ensaio aprovado, descaracterizados na execução e recebidos sem conferência. Resultado: 300 unidades bloqueadas judicialmente, R$ 230 mil em manutenção e um guarda-corpo que cedeu num temporal.\n\nNa sua construtora, quem compara o executado com o aprovado antes de pagar?\n\nPara construtora e incorporadora, o Método Blindar instala esse critério do projeto ao recebimento: cinco encontros com a sua equipe e doze ferramentas aplicadas na sua obra. mauricio.consultglass.net.br/metodo-blindar.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #construtora #cdc #recebimento"
+    },
+    "profissional-blindado": {
+      "titulo": "Profissional blindado é o que a Justiça não alcança",
+      "fonte": "Premium Cast jul/2025 ('profissional blindado é aquele que judicialmente não pode ser acionado: entrega a documentação e é excluído; para ele foi só uma notificação'; 'profissional ético é profissional blindado'); Reel 12/05/2025 e 14/05/2025.",
+      "cta": {
+        "tipo": "seguir"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "palestra-terno.jpg",
+          "etiqueta": "Blindagem",
+          "gancho": "Blindado não é quem nunca é chamado."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O processo chega em todo mundo que lucrou na obra.",
+          "texto": "A diferença é o que acontece depois que chega."
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "A definição dele",
+          "titulo": "Profissional blindado entrega a documentação e é excluído.",
+          "texto": "Especificou certo, registrou, orientou. Para ele foi só uma notificação. O processo segue para quem errou."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que ele tinha na mão",
+          "itens": [
+            [
+              "Projeto com notação técnica",
+              "Vidro, norma, RT específica exigida."
+            ],
+            [
+              "Registro",
+              "E-mail, diário de obra, fotos."
+            ],
+            [
+              "Orientação escrita",
+              "Ao cliente e à construtora, com recebimento."
+            ]
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Blindagem não é reagir depois do processo.",
+          "texto": "É trabalhar de forma preventiva, prevendo o risco e decidindo antes que o erro aconteça."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "\"Tem um problema, sim. Mas não é meu problema.\"",
+          "texto": "Já presenciei: o arquiteto entregou o projeto, foi tirado do caso, e a perícia seguiu com o restante."
+        },
+        {
+          "tipo": "cta",
+          "produto": "seguir",
+          "titulo": "Blindagem técnica e jurídica, na prática."
+        }
+      ],
+      "legenda": "Profissional blindado não é o que nunca é chamado. É o que, quando o processo chega, entrega a documentação e é excluído.\n\nO processo chega em todo mundo que teve lucro na obra — é assim que a solidariedade funciona. A diferença está no que acontece depois. O arquiteto que fez a especificação correta, com notação técnica no projeto (vidro laminado de segurança conforme a norma, RT específica do item exigida), registrou a orientação e guardou as provas, recebe a notificação, envia os documentos e sai do caso. Para ele, foi só uma notificação. O processo segue para quem errou.\n\nJá presenciei isso: o profissional entregou o projeto, a Justiça leu, e ele foi retirado da perícia. Tem um problema, sim. Mas não é dele.\n\nBlindagem não é reagir depois que o problema virou processo. É trabalhar de forma preventiva: prever o risco, decidir tecnicamente e registrar antes que o erro aconteça. Contrato, especificação correta, respaldo técnico e jurídico, caminhando juntos. Vale para projetista, executor, fabricante e fornecedor.\n\nE a base disso tudo continua sendo uma só: profissional ético é profissional blindado. Ele não dá brecha. Quando erra — porque somos imperfeitos — resolve o que é dele antes de virar disputa.\n\nSe o processo chegasse amanhã, você sairia dele com um e-mail ou ficaria até o fim?\n\nSiga @peritomauricioboschetti.\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #blindagemjuridica #arquitetura #engenharia"
+    },
+    "art-nao-e-carimbo": {
+      "titulo": "ART não é carimbo",
+      "fonte": "Mãos à Obra EP63 (out/2025) e Reels 30/09 e 14/10/2025: responsabilidade técnica recai sobre CPF; RT da empresa × ART de cada obra; natureza da atividade; coerência com o CNAE; 'não faça uma ART vazia'; CREA-SP fiscalizando indústrias. Sem afirmar a modalidade exigida (tema em evolução, segundo ele).",
+      "cta": {
+        "tipo": "venda-blindada"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "palestra-microfone.jpg",
+          "etiqueta": "ART",
+          "gancho": "ART não é carimbo. É compromisso."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "A empresa nunca é responsável técnica por si mesma.",
+          "texto": "Responsabilidade técnica recai sobre um CPF — um profissional habilitado que traz o CNPJ para dentro do registro dele."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Duas coisas diferentes, e as duas obrigatórias",
+          "itens": [
+            [
+              "RT da empresa",
+              "Quem responde pela fabricação e por tudo que sai da fábrica."
+            ],
+            [
+              "ART de cada obra",
+              "Projeto, execução, fiscalização — a natureza muda o alcance."
+            ],
+            [
+              "Uma não substitui a outra",
+              "E o consultor emite a de projeto, nunca a da fábrica."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "O que ele vê no CREA",
+          "titulo": "A fiscalização das indústrias de esquadria começou.",
+          "texto": "Cruzamento por CNAE, multa sem notificação prévia. O mercado descobriu doendo no bolso."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "ART vazia.",
+          "texto": "Engenheiro com dez empresas no registro não consegue ser responsável por dez. Na falha, quem responde criminalmente é ele."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "\"Já tive proposta para assumir a RT de indústria. Recusei.\"",
+          "texto": "Porque eu não sei o que o cara está fazendo na ponta. E responsabilidade técnica sem ética não é nada."
+        },
+        {
+          "tipo": "cta",
+          "produto": "venda-blindada",
+          "titulo": "Quem fabrica e instala: contrato e responsabilidade técnica andam juntos."
+        }
+      ],
+      "legenda": "A ART não é um carimbo. É um compromisso técnico e legal.\n\nPrimeiro conceito: a empresa nunca é responsável técnica por si mesma. Responsabilidade técnica recai sobre um CPF — um profissional habilitado no conselho, que traz o CNPJ para dentro do registro dele. A empresa tem responsabilidade civil, criminal, contratual; a técnica exige uma pessoa.\n\nSegundo: são dois instrumentos diferentes, e os dois são obrigatórios. O responsável técnico da empresa responde pela fabricação e por tudo que sai da fábrica. A ART de cada obra registra a natureza da atividade — projeto, execução, fiscalização, consultoria — e é essa natureza que define o alcance da responsabilidade. Uma não substitui a outra. E o consultor emite ART de projeto; nunca a da fábrica.\n\nTerceiro: a fiscalização chegou. O CREA-SP passou a cruzar os CNAEs das indústrias com a junta comercial e a multar quem não tem responsável técnico, sem notificação prévia. O mercado, que ignorou os avisos por anos, descobriu doendo no bolso.\n\nE um alerta que faço em todo podcast: não faça uma ART vazia. Um engenheiro com dez empresas no registro não consegue ser responsável por dez. Eu já recebi proposta para assumir a RT de indústrias e recusei — porque não sei o que a equipe está fazendo na ponta. Na falha, quem responde criminalmente é quem assinou. Responsabilidade técnica sem ética não é nada.\n\nA sua empresa tem responsável técnico registrado — e ele conhece a sua linha de produção?\n\nSe você fabrica e instala esquadrias, o Venda Blindada é o contrato técnico que define escopo, medição, prazos, recebimento e responsabilidades antes da obra. mauricio.consultglass.net.br/venda-blindada-esquadrias.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #art #crea #industria"
+    },
+    "perito-assistente-extrajudicial": {
+      "titulo": "Perito, assistente técnico e extrajudicial",
+      "fonte": "Aluparts EP20 (abr/2026) e live Café + Conteúdo (abr/2025): 'perito só quando nomeado pelo juiz'; assistentes técnicos das partes; quesitos; extrajudicial = negociação nos bastidores; 'melhor mau acordo do que boa briga'.",
+      "cta": {
+        "tipo": "pericia"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "podcast-branco.jpg",
+          "etiqueta": "Perícia",
+          "gancho": "\"Contratei um perito.\" Não contratou."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Perito judicial é exclusividade do juiz.",
+          "texto": "Só é perito quem foi nomeado. Quem a parte contrata é assistente técnico."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Os três papéis",
+          "itens": [
+            [
+              "Perito judicial",
+              "Nomeado pelo juiz. Neutro. Os olhos técnicos de quem entende de lei."
+            ],
+            [
+              "Assistente técnico",
+              "Contratado pela parte. Monta a defesa ou o ataque e formula os quesitos."
+            ],
+            [
+              "Perito extrajudicial",
+              "Antes do processo. Inspeciona e dá base para negociar."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "Quesitos",
+          "titulo": "As perguntas que o perito é obrigado a responder.",
+          "texto": "Cada parte formula as suas. Quesito bem feito direciona o processo — é onde o assistente técnico vale o que custa."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Deixar virar processo quando dava para negociar.",
+          "texto": "Cinco anos, custo maior para todos e desgaste. Melhor mau acordo do que boa briga."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Extrajudicial: inspeção como se fosse nomeado, para a mesa de negociação.",
+          "texto": "\"Aqui vocês erraram, aqui vocês acertaram.\" As partes negociam sabendo o que têm."
+        },
+        {
+          "tipo": "cta",
+          "produto": "pericia",
+          "titulo": "Antes de virar processo, a perícia extrajudicial resolve na mesa."
+        }
+      ],
+      "legenda": "\"Contratei um perito.\" Na maioria das vezes, não contratou.\n\nPerito judicial é exclusividade do juiz. Eu só sou perito quando sou nomeado num processo — antes disso, sou auxiliar da justiça ou assistente técnico. O perito nomeado é neutro: não tem lado, não tem vínculo financeiro com as partes. Ele é os olhos técnicos de quem entende de lei e não de engenharia.\n\nQuem a parte contrata é o assistente técnico. Ele ajuda o escritório a montar a petição ou a defesa e formula os quesitos — as perguntas que o perito nomeado é obrigado a responder. Quesito bem feito direciona o processo. Num caso, citei a Lei 5.194 e perguntei se a engenharia admite interpretação técnica; a resposta do perito foi que não admite. É ali que o assistente vale o que custa.\n\nE existe o terceiro papel, o mais subestimado: o perito extrajudicial. Quando ainda não virou processo, o escritório chama, eu faço a inspeção como faria se fosse nomeado, e as partes negociam sabendo o que têm — \"aqui vocês erraram, aqui vocês acertaram\". Evita cinco anos de processo, custo maior para todos e desgaste. Melhor mau acordo do que boa briga.\n\nNenhum processo começa sendo processo. Começa numa reclamação que não foi atendida — e quase sempre havia uma mesa antes do tribunal.\n\nVocê já resolveu uma disputa técnica antes de virar processo? Como foi?\n\nQuando o dano já existe — infiltração, falha de fachada, guarda-corpo, vidro — a perícia técnica documenta a causa e sustenta a sua posição, judicial ou extrajudicial. mauricio.consultglass.net.br/pericia-tecnica.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #perito #assistentetecnico #extrajudicial"
+    },
+    "esquadria-e-argumento-de-venda-do-imovel": {
+      "titulo": "Esquadria é argumento de venda do imóvel",
+      "fonte": "Reels do @consult.glass de 09/03 e 29/04/2026 ('esquadria não é detalhe; é parte da qualidade final da entrega'; 'o cliente não compra só estética, compra o que vai sentir no dia a dia'); Premium Cast (o cliente compra sofá e esquece quem protege o sofá).",
+      "cta": {
+        "tipo": "metodo-blindar"
+      },
+      "slides": [
+        {
+          "tipo": "capa",
+          "foto": "fesqua-corredor.jpg",
+          "etiqueta": "Incorporação",
+          "gancho": "O cliente compra o que sente. Todo dia."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Esquadria não é detalhe. É parte da qualidade final da entrega.",
+          "texto": "Conforto térmico, silêncio, vedação, segurança — o morador sente isso todo dia, por anos."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "O que a esquadria bem especificada entrega ao produto",
+          "itens": [
+            [
+              "Desempenho",
+              "Térmico e acústico que o cliente percebe sem saber o nome."
+            ],
+            [
+              "Vedação",
+              "Sem infiltração, sem entrada de ar."
+            ],
+            [
+              "Segurança",
+              "Vidro certo no lugar certo."
+            ]
+          ]
+        },
+        {
+          "tipo": "texto",
+          "rotulo": "A inversão",
+          "titulo": "O cliente gasta no sofá e esquece quem protege o sofá.",
+          "texto": "A esquadria é a proteção vertical da casa. E é tão grave quanto falha estrutural quando erra."
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Especificar pelo custo antes de definir o desempenho.",
+          "texto": "Infiltração, mau funcionamento, desconforto — e mais responsabilidade técnica para quem decidiu sem critério."
+        },
+        {
+          "tipo": "pericia",
+          "titulo": "Quando a esquadria vira posicionamento de produto.",
+          "texto": "Em mercado competitivo, detalhe técnico bem resolvido passa a ser percebido como valor — e vende."
+        },
+        {
+          "tipo": "cta",
+          "produto": "metodo-blindar",
+          "titulo": "Incorporadora: a esquadria como produto começa na especificação."
+        }
+      ],
+      "legenda": "Esquadria não é detalhe. É parte da qualidade final da entrega — e pode ser argumento de venda do imóvel.\n\nQuando bem especificada, ela entrega conforto térmico, controle acústico, vedação e segurança. São pontos que impactam diretamente a experiência de quem vai usar o espaço, todo dia, por anos. O morador sente sem saber o nome técnico. E, num mercado cada vez mais competitivo, detalhes técnicos bem resolvidos começam a ser percebidos como valor. Para a construtora, isso deixa de ser só uma etapa da obra e passa a ser posicionamento de produto.\n\nA inversão que vejo sempre: o cliente gasta no sofá, na decoração, na marcenaria — e não pensa que quem protege tudo isso é a esquadria. Ela é a proteção vertical da casa. E, quando falha, é tão grave quanto uma falha estrutural: o prejuízo é grande, o risco existe e o custo de trocar uma esquadria instalada é muito maior do que o de qualquer móvel.\n\nO erro que aparece com frequência na especificação: escolher pela estética ou pelo custo antes de definir o desempenho que a obra exige, e ignorar as condições reais de uso — vento, exposição, tipo de abertura. O resultado vem depois: infiltração, mau funcionamento, desconforto e mais responsabilidade técnica para quem decidiu sem critério.\n\nPorque, no fim, o cliente não compra só estética. Compra o que vai sentir no dia a dia.\n\nNo seu empreendimento, a esquadria entrou no material de venda ou só na planilha de custo?\n\nPara construtora e incorporadora, o Método Blindar instala esse critério do projeto ao recebimento: cinco encontros com a sua equipe e doze ferramentas aplicadas na sua obra. mauricio.consultglass.net.br/metodo-blindar.\n\n@peritomauricioboschetti\n\n#engenhariacivil #esquadrias #arquitetura #construcaocivil #responsabilidadetecnica #periciajudicial #blindagemprofissional #incorporadora #altopadrao #desempenho"
     }
   }
 }

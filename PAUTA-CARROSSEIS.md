@@ -4,38 +4,38 @@ Regra: só entra tema com **fonte do próprio Maurício** (podcast, palestra, Re
 lei/norma **conferida na fonte** (cérebro: `25 Consult Glass/Base legal e normativa conferida.md`).
 ✅ = escrita em `carrosseis.json` · ⏳ = na fila · ⚠ = depende de conferir algo antes.
 
-## Escritas (4,5 semanas, a partir de 15/09/2026 — terça e sexta, 7h)
+## Escritas e agendadas (24 peças = 12 semanas, 15/09 a 04/12/2026 — terça e sexta, 7h)
 
-| # | Slug | Tema | CTA (produto) |
-|---|---|---|---|
-| 1 | ✅ guarda-corpo-ultimo-item-antes-da-queda | "Guarda-corpo é o último item antes da queda" · NBR 14718 · caso da vitrine temperada | Perícia |
-| 2 | ✅ temperado-ou-laminado-onde-cada-um-pode | temperado × laminado × laminado temperado · NBR 7199 + emenda 2025 | Seguir |
-| 3 | ✅ a-lei-diz-se-pode-a-norma-diz-como | CDC art. 39, VIII · norma é o mínimo · catálogo e boas práticas | Venda Blindada |
-| 4 | ✅ o-que-nao-esta-documentado-nao-existe | o kit de documentos da blindagem · quem prova é a parte acionada | Método Blindar |
-| 5 | ✅ cdc-veio-para-o-responsavel-tecnico | fornecedor (art. 3º) · objetiva × subjetiva × solidária · o vão oco | Seguir |
-| 6 | ✅ vicio-oculto-a-garantia-comeca-no-problema | vício aparente × oculto · CDC 26 · CC 618 · caso do vidro de controle solar | Venda Blindada |
-| 7 | ✅ a-falha-comeca-antes-da-esquadria | contramarco, vão, compatibilização · o prédio de 14 andares · dever de recusar o vão | Perícia |
-| 8 | ✅ guarnicao-o-detalhe-que-decide-a-fachada | EPDM · componente × acessório · vulcanização dos cantos (manual do sistemista) | Método Blindar |
-| 9 | ✅ termo-assinado-pelo-cliente-nao-vale | não existe transferência de responsabilidade · termo de ciência · baixar a ART | Seguir |
+| # | Data | Slug | Título | CTA (produto) |
+|---|---|---|---|---|
+| 1 | 15/09 | ✅ guarda-corpo-ultimo-item-antes-da-queda | Guarda-corpo é o último item antes da queda | Perícia |
+| 2 | 18/09 | ✅ temperado-ou-laminado-onde-cada-um-pode | Temperado ou laminado: onde cada um pode | Seguir |
+| 3 | 22/09 | ✅ a-lei-diz-se-pode-a-norma-diz-como | A lei diz se pode. A norma diz como. | Venda Blindada |
+| 4 | 25/09 | ✅ o-que-nao-esta-documentado-nao-existe | O que não está documentado não existe | Método Blindar |
+| 5 | 29/09 | ✅ cdc-veio-para-o-responsavel-tecnico | O CDC veio para o responsável técnico | Seguir |
+| 6 | 02/10 | ✅ vicio-oculto-a-garantia-comeca-no-problema | Vício oculto: a garantia começa no problema | Venda Blindada |
+| 7 | 06/10 | ✅ a-falha-comeca-antes-da-esquadria | A falha começa antes da esquadria | Perícia |
+| 8 | 09/10 | ✅ guarnicao-o-detalhe-que-decide-a-fachada | Guarnição: o detalhe que decide a fachada | Método Blindar |
+| 9 | 13/10 | ✅ termo-assinado-pelo-cliente-nao-vale | Termo assinado pelo cliente não vale | Seguir |
+| 10 | 16/10 | ✅ ensaio-e-por-produto-e-por-empresa | Ensaio é por produto e por empresa | Venda Blindada |
+| 11 | 20/10 | ✅ sindico-laudo-de-entrada-de-gestao | Síndico: assumiu o prédio, assumiu a responsabilidade | Perícia |
+| 12 | 23/10 | ✅ tres-propostas-tres-escopos | Três propostas, três escopos | Método Blindar |
+| 13 | 27/10 | ✅ impericia-imprudencia-negligencia | Imperícia, imprudência e negligência | Seguir |
+| 14 | 30/10 | ✅ manual-e-termo-de-garantia | Manual do usuário e termo de garantia | Venda Blindada |
+| 15 | 03/11 | ✅ nem-sempre-a-esquadria-e-a-vila | Nem sempre a esquadria é a vilã | Perícia |
+| 16 | 06/11 | ✅ o-vao-e-projetado-para-a-esquadria | O vão é projetado para a esquadria | Método Blindar |
+| 17 | 10/11 | ✅ a-faculdade-nao-ensina-esquadria | A faculdade não ensina esquadria | Seguir |
+| 18 | 13/11 | ✅ todo-litigio-comeca-cedendo-preco | Todo litígio começa cedendo preço | Venda Blindada |
+| 19 | 17/11 | ✅ laudo-parecer-e-laudo-cautelar | Laudo, parecer e laudo cautelar | Perícia |
+| 20 | 20/11 | ✅ recall-quem-responde-primeiro | Falha de sistema: quem responde primeiro | Método Blindar |
+| 21 | 24/11 | ✅ profissional-blindado | Profissional blindado é o que a Justiça não alcança | Seguir |
+| 22 | 27/11 | ✅ art-nao-e-carimbo | ART não é carimbo | Venda Blindada |
+| 23 | 01/12 | ✅ perito-assistente-extrajudicial | Perito, assistente técnico e extrajudicial | Perícia |
+| 24 | 04/12 | ✅ esquadria-e-argumento-de-venda-do-imovel | Esquadria é argumento de venda do imóvel | Método Blindar |
 
 ## Fila (com fonte)
 
-- ⏳ **Imperícia, imprudência e negligência** — os três braços da culpa (Vidro na Obra #69; Aluparts). "Eu não sabia" = imperícia.
-- ⏳ **Profissional blindado = aquele que a Justiça não consegue acionar** — o arquiteto que entregou a documentação e saiu do processo (Premium Cast).
-- ⏳ **Laudo × parecer × laudo cautelar** — o que cada um é e quem pode emitir (Aluparts EP20).
-- ⏳ **Perito judicial × assistente técnico × perito extrajudicial** — "perito só quando nomeado" (Aluparts, Café + Conteúdo).
-- ⏳ **Ensaio é por produto E por empresa** — "o sistemista ensaiou o produto dele, não a sua mão de obra" (Saie Vetro, Reel 18/09/2025).
-- ⏳ **Todo litígio começa num problema financeiro: ceder preço** — a cadeia espremida (Vidro na Obra; Reel 28/07/2025).
-- ⏳ **Três propostas, três escopos: equalização técnica** — o carro da FIPE pela metade (Premium Cast; LP Método Blindar).
-- ⏳ **A faculdade não ensina esquadria** — "conhecimento zero"; a empresa vira a única referência (Premium Cast; Reel 20/07/2025).
-- ⏳ **Síndico: laudo de entrada de gestão** — NBR 5674, 16280, 17170 (Aluparts EP20; post 14/04/2026).
-- ⏳ **Recall de sistema: quem responde primeiro** — a construtora é a primeira processada e regressa (Reel 30/10/2025).
-- ⏳ **Manual do usuário e termo de garantia** — "o mercado trata o mínimo como luxo" (Premium Cast).
 - ⏳ **Norma, IT-09 e a mais restritiva** (Reel 09/10/2025) — ⚠ conferir a IT-09 vigente antes.
-- ⏳ **ART não é carimbo** — RT da empresa × ART de obra; CPF, nunca CNPJ (Mãos à Obra) — ⚠ sem cravar "eng. mecânico obrigatório".
-- ⏳ **Nem sempre a esquadria é a vilã** — o visor de piscina e o rejunte (Premium Cast).
-- ⏳ **Vão projetado para a esquadria** — carga pontual, pressão de vento, NBR 6123, o vento de Campinas 2020 (Premium Cast).
-- ⏳ **Esquadria como argumento de venda do imóvel** (Reel @consult.glass 29/04/2026).
 - ⏳ **Isolamento ≠ atenuação acústica** (Reel @consult.glass 15/04/2026) — ⚠ conferir definições na NBR 10821-4/15575 antes.
 - ⏳ **"Norma não é lei" — o Daniel mudou de ideia ao vivo** (Vidro na Obra #69) — versão narrativa do tema 3.
 - ⏳ **Os 5 erros do envidraçamento estrutural** (carrossel dele de 05/03/2025) — reescrever na régua de frases curtas.
